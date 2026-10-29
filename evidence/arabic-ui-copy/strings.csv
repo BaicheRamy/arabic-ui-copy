@@ -1,0 +1,403 @@
+context,english,arabic,product,source,url,collected,notes_file
+Sign in (button/link),Sign in,تسجيل الدخول,Google Help header,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Sign in (button/link),Sign in,تسجيل الدخول,Microsoft Support header,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Sign in (button/link),Sign in,تسجيل الدخول,Saudi MOH (national access page),MOH,https://www.moh.gov.sa/Ministry/eTransactions/Pages/National-Access.aspx,2026-10-28,research/research-tech-gov-strings.md
+Sign in (button/link),Sign in,تسجيل الدخول,Saudi HRSD service page,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Sign in (button),Sign in / enter,دخول,Absher (portal cards),Absher,https://www.absher.sa/portal/landing.html,2026-10-28,research/research-tech-gov-strings.md
+Sign in (imperative),Sign in to Apple Account,سجِّل الدخول إلى حساب Apple **(snippet)**,Apple (Numbers guide),https://support.apple.com/ar-qa/guide/numbers-ipad/aside/tanabe2e94e5/14.4/ipados/1.0,https://support.apple.com/ar-qa/guide/numbers-ipad/aside/tanabe2e94e5/14.4/ipados/1.0,2026-10-28,research/research-tech-gov-strings.md
+Sign in (heading),Sign in with Apple ID,تسجيل الدخول باستخدام Apple ID,Apple,A-mba,https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Sign in (heading),Sign in to Apple Account,تسجيل الدخول إلى حساب Apple,Apple,A-pod,https://support.apple.com/ar-sa/guide/podcasts/aside/glos0159e54b/1.1.0/mac/26,2026-10-28,research/research-tech-gov-strings.md
+Sign in page title,Sign in - Google Accounts,تسجيل الدخول - حسابات Google,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Sign in subtitle,Use your Google Account,باستخدام حسابك على Google,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Sign in field,Email or phone,البريد الإلكتروني أو الهاتف,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Sign in helper,Not your computer? Use a private window to sign in.,ألا تمتلك هذا الكمبيوتر؟ استخدِم نافذة التصفّح بخصوصية تامّة لتسجيل الدخول.,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Sign in link,Learn more about using Guest mode,"مزيد من المعلومات حول استخدام ""وضع الضيف""",Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Sign in with SSO,Sign in using Nafath,"تسجيل الدخول باستخدام ""نفاذ""",Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Sign in with MS,Sign in with a Microsoft account,تسجيل الدخول باستخدام حساب Microsoft,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Sign in or sign up,Sign in or create an account.,تسجيل الدخول أو إنشاء حساب.,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Account picker,You have multiple accounts,لديك حسابات متعددة,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Account picker,Choose the account you want to sign in with.,اختر الحساب الذي تريد تسجيل الدخول باستخدامه.,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Greeting,"Hello,",مرحباً،,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Can't sign in,Can't access your account?,ألا يمكنك الدخول إلى حسابك؟,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Can't sign in,Can't sign in to the Admin console,"تعذُّر تسجيل الدخول إلى ""وحدة تحكّم المشرف""",Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Sign out,Sign out,تسجيل الخروج,Saudi MOH,MOH,https://www.moh.gov.sa/Ministry/eTransactions/Pages/National-Access.aspx,2026-10-28,research/research-tech-gov-strings.md
+Sign out (admin action),Sign out user,تسجيل خروج المستخدم,Google Workspace Admin,G-wsout,https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Create account,Create account,إنشاء حساب,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Create account,"If you don't have an Apple Account, you can create one.",إذا لم يكن لديك حساب Apple، يمكنك إنشاء حساب.,Apple,A-pod,https://support.apple.com/ar-sa/guide/podcasts/aside/glos0159e54b/1.1.0/mac/26,2026-10-28,research/research-tech-gov-strings.md
+Register,Register as a new user and enter the required information,سجّل كمستخدم جديد وأدخل المعلومات المطلوبة,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Register,Registration steps,خطوات التسجيل,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Forgot email,Forgot email?,هل نسيت بريدك الإلكتروني؟,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Forgot password,Forgot password?,هل نسيت كلمة السر؟,Apple,A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Forgot password,Forgot password or don't have an Apple Account?,هل نسيت كلمة السر أم ليس لديك حساب Apple؟,Apple,A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Reset password,Reset password,إعادة تعيين كلمة السر,Apple (Support app),A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Reset password,How to reset a Microsoft account password,كيفية إعادة تعيين كلمة مرور حساب Microsoft,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Reset password,Reset your password,إعادة ضبط كلمة المرور الخاصة بك,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Create password,Set a password,تحديد كلمة سر,UAE PASS (u.ae),u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Create password,Create a new password (at least 8 characters),أنشئ كلمة مرور جديدة (يجب أن تكون على الأقل 8 رموز),Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Wrong password (error),Incorrect password,كلمة مرور غير صحيحة,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Verification code,رمز التحقق,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Six-digit verification code,رمز التحقق المُكوَّن من ستة أرقام,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Get a verification code,الحصول على رمز تحقق,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Two-factor authentication code,رمز المصادقة بخطوتين,Apple,A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Backup verification codes,رموز تحقُّق احتياطية,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Security code,رمز أمان,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Security info and verification codes,معلومات الأمان ورموز التحقق,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Verification code (SMS),A verification code will be sent to your phone registered in Absher to activate the account,سيصلك رمز التحقق على جوالك المسجّل في أبشر لتفعيل الحساب,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Verification code (SMS),A verification code will be sent to your phone,سيصلك رمز تحقق لجوالك,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Verification code,Enter the code in the app,أدخل الرمز في التطبيق,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+ID field,Enter ID number,أدخل رقم الهوية,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Verify phone,Verify mobile number,التحقق من رقم الهاتف المحمول,UAE PASS (u.ae),u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,Two-factor authentication,المصادقة بخطوتين,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,Turn on two-factor authentication,تشغيل المصادقة بخطوتين,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,2-Step Verification,التحقُّق بخطوتين,Google,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,Turn on 2-Step Verification,"تفعيل ميزة ""التحقّق بخطوتين"" **(snippet)**",Google Workspace,https://knowledge.workspace.google.com/business-continuity/security-and-monitoring/deploy-2-step-verification?hl=ar,https://knowledge.workspace.google.com/business-continuity/security-and-monitoring/deploy-2-step-verification?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,Two-step verification,التحقق على خطوتين,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+2-step verification,Use two-step verification with a Microsoft account,استخدام التحقق على خطوتين مع حساب Microsoft,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Sign-in challenge,Sign-in challenge,اختبار التحقُّق من تسجيل الدخول,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Trusted devices,Trusted devices,الأجهزة الموثوقة,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Trusted devices,Trusted phone numbers,أرقام الهواتف الموثوقة,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Untrusted device,Untrusted device,جهاز غير موثوق به,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Passcode,Passcode,رمز مرور,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+App passwords,App passwords,كلمات مرور التطبيق,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Security menu,Sign-In & Security,تسجيل الدخول والأمن,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Security menu,Upgrade account security,ترقية أمان الحساب,Apple,A-2fa,https://support.apple.com/ar-sa/102660,2026-10-28,research/research-tech-gov-strings.md
+Security menu,Manage how you sign in,إدارة كيفية تسجيل الدخول,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Security menu,Additional security options,خيارات الأمان الإضافية,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Security check,Security Checkup,فحص الأمان,Google,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Account,Apple Account,حساب Apple,Apple,A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Account,Manage Apple Account,إدارة حساب Apple,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Account,Your account,حسابك,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Account,Account profile,ملف تعريف الحساب,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Account (digital ID),Activate the digital ID account,تفعيل حساب الهوية الرقمي,UAE PASS (u.ae),u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Profile,Update my profile,تحديث ملف التعريف الخاص بي,Saudi MOH,MOH,https://www.moh.gov.sa/Ministry/eTransactions/Pages/National-Access.aspx,2026-10-28,research/research-tech-gov-strings.md
+Profile,Update your profile,تحديث ملفك التعريفي,UAE PASS (u.ae),u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Account recovery,Recover a recently deleted Google Account,استرداد حساب على Google تم حذفه مؤخرًا **(snippet)**,Google,https://support.google.com/accounts/answer/6236295?hl=ar,https://support.google.com/accounts/answer/6236295?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Account status,Your account has been suspended,تم إيقاف حسابك **(snippet)**,Google Workspace,https://knowledge.workspace.google.com/kb/unable-to-log-in-on-a-disabled-or-suspended-account-000008455?hl=ar,https://knowledge.workspace.google.com/kb/unable-to-log-in-on-a-disabled-or-suspended-account-000008455?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Help,Help Someone Else,مساعدة شخص آخر,Apple (Support app),A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Recovery option,I don't have access to this card,ليس لديّ حق الوصول إلى هذه البطاقة,Apple,A-pw,https://support.apple.com/ar-sa/102656,2026-10-28,research/research-tech-gov-strings.md
+Settings app,Settings,الإعدادات,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Settings app,System Settings,إعدادات النظام,Apple macOS,A-mba,https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Settings (cookie banner),Settings,الإعداد,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Search settings,Search settings,البحث عن الإعدادات,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Display,Display & Brightness,شاشة العرض والإضاءة,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Display,Adjust display and text settings on iPhone,ضبط إعدادات شاشة العرض والنص في iPhone,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Dark mode (option),Dark,داكن,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Dark mode (option),Automatic,تلقائي,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Dark mode (control),Dark Mode,النمط الداكن,Apple iOS Control Center,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Dark mode (toggle),Turn on dark mode,تفعيل الوضع المُعتِم,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Control Center,Control Center,مركز التحكم,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Control Center,Add a Control,إضافة عنصر تحكم,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Control,Brightness slider,شريط الإضاءة,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Options,Options,خيارات,Apple iOS,A-dark,https://support.apple.com/ar-sa/108350,2026-10-28,research/research-tech-gov-strings.md
+Notifications,Change notification settings,تغيير إعدادات الإشعارات,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Notifications,"Set up Focus, notifications, and Do Not Disturb",إعداد التركيز والإشعارات وعدم الإزعاج,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Notifications,Allow or silence Focus notifications,السماح بإشعارات التركيز أو إسكاتها,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Notifications,View and respond to notifications,عرض الإشعارات والرد عليها,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Sounds,Change sounds and vibrations,تغيير الأصوات والاهتزازات,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Data & privacy,البيانات والخصوصية,Google Account,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Your data and privacy options,بياناتك وخيارات الخصوصية,Google Account,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Privacy,الخصوصية,Google Accounts footer,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Privacy,Privacy,الخصوصية,Apple.com footer,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Privacy Policy,سياسة الخصوصية,Google / Tawakkalna / Apple,"G-home, Tawakkalna, A-com",https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Your privacy choices,خيارات خصوصيتك,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Privacy,Manage cookies,إدارة ملفات تعريف الارتباط,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Privacy (location),Turn off Location Services,إيقاف تحديد الموقع,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Privacy (location),Clear location history,مسح سجل تاريخ المواقع,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Security tab,Security,الأمان,Google Workspace / Microsoft,"G-wsout, M-home",https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Security tab,Security tab,علامة التبويب أمان,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Security settings,Security settings,إعدادات الأمن,Apple,A-pod,https://support.apple.com/ar-sa/guide/podcasts/aside/glos0159e54b/1.1.0/mac/26,2026-10-28,research/research-tech-gov-strings.md
+Security settings,Security settings in the Admin console,إعدادات الأمان في وحدة تحكم المشرف,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Language,Arabic,العربية,Google / Absher / Microsoft,"G-login, Absher",https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Language,Arabic (Saudi Arabia),العربية (المملكة العربية السعودية),Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Region,Choose your country or region,اختر بلدك أو منطقتك,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Accessibility,Accessibility,تسهيلات الاستخدام,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Accessibility,Accessibility,إمكانية الوصول,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Terms,Terms,البنود,Google Accounts footer,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Terms,Terms of Service,بنود الخدمة,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Terms,Terms of use,بنود الاستخدام,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Terms,Terms and conditions,الشروط والأحكام,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Terms,Terms of use,شروط الاستخدام,Saudi HRSD,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Next,Next,التالي,Google Accounts sign-in,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Next (pagination),Next,التالي,Apple Support guide,A-mba,https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Cancel,Cancel,إلغاء,Microsoft (search box),M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Close,Close,إغلاق,Google Help / HRSD / MOF / Microsoft installer,"G-home, HRSD, MOF, M-inst",https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Continue,Continue,متابعة,Microsoft 365 installer,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Agree,I agree,أوافق,Microsoft 365 installer,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Yes / No,Yes / No,نعم / لا,"Apple, HRSD, MOF, u.ae","A-mba, HRSD, MOF, u.ae-PASS",https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Submit,Submit (feedback),إرسال,"Apple, HRSD, MOF, u.ae","A-mba, HRSD, MOF, u.ae-PASS",https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Send feedback,Send feedback,إرسال التعليقات,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Give feedback,Give us your feedback,اعطنا ملاحظاتك,u.ae,u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Send confirmation,Send confirmation message,إرسال رسالة التأكيد,Google,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Delete,Delete,حذف,Google Account,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Delete,Delete your Google Account,حذف حسابك على Google,Google Account,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Delete,Delete a Google service,حذف خدمة في Google / حذف خدمة Google,Google Account,"G-del, G-rm",https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Remove (title),Remove products (article title),إزالة المنتجات,Google,G-rm,https://support.google.com/accounts/answer/81987?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Remove or delete,Remove or delete apps,إزالة التطبيقات أو حذفها,Apple,A-apps,https://support.apple.com/ar-sa/guide/iphone/iph248b543ca/ios,2026-10-28,research/research-tech-gov-strings.md
+Delete,Delete messages and attachments,حذف الرسائل والمرفقات,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Delete + restore,Delete and recover email messages,حذف رسائل البريد الإلكتروني واستردادها,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Remove accounts,Add or remove accounts,إضافة حسابات أو إزالتها,Apple,https://support.apple.com/ar-sa/guide/iphone/iph76e54c61e/ios,https://support.apple.com/ar-sa/guide/iphone/iph76e54c61e/ios,2026-10-28,research/research-tech-gov-strings.md
+Wipe,Wipe data from a device,حجب البيانات من جهاز,Google Workspace Admin,G-wsout,https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Reset,Reset,إعادة ضبط,Google Workspace Admin,G-wsout,https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Download,Download or delete your data,تنزيل بياناتك أو حذفها,Google,G-rm,https://support.google.com/accounts/answer/81987?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Download,Download email attachments / offline maps,تنزيل مرفقات البريد الإلكتروني / تنزيل خرائط عدم الاتصال,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Download,You can download the apps again later,يمكنك تنزيل التطبيقات مرة أخرى لاحقًا,Apple,A-apps,https://support.apple.com/ar-sa/guide/iphone/iph248b543ca/ios,2026-10-28,research/research-tech-gov-strings.md
+Download,Download Microsoft 365 ... (article title),تنزيل Microsoft 365 أو Office 2024 أو تثبيته,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Download center,Download center,مركز التنزيل,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Download app,Download the Tawakkalna app,حمّل تطبيق توكلنا,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Download app,Download the app,حمّل التطبيق,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Download doc,"Download the document, sign it and share it",حمّل الوثيقة، وقّع عليها وشاركها,UAE PASS (u.ae),u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Get apps,Get apps,الحصول على التطبيقات,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Install,Install,تثبيت,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Install,Install apps,تثبيت التطبيقات,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Save file,Save file (browser prompt),حفظ ملف,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Run,Run (browser prompt),تشغيل,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Customize,Customize,تخصيص,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Get started,Get started,بدء الاستخدام,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Turn on,Turn on,تشغيل,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Turn off,Turn off,إيقاف تشغيل,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Turn on,Turn on (dark mode),تفعيل,Google,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Turn off (temporarily),Temporarily turn off the sign-in challenge,إيقاف اختبار التحقُّق من تسجيل الدخول مؤقتًا,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Share,Share,شارك,u.ae,u.ae,https://u.ae/ar-ae,2026-10-28,research/research-tech-gov-strings.md
+Share,Share content / Share your location,مشاركة المحتوى / مشاركة موقعك,Apple,A-iph,https://support.apple.com/ar-sa/guide/iphone/welcome/ios,2026-10-28,research/research-tech-gov-strings.md
+Learn more,Learn more,اعرف المزيد,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Learn more,Learn more,اعرف المزيد,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Learn more,Learn more about ...,مزيد من المعلومات حول ...,Google Accounts,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+More,More,المزيد,u.ae / Microsoft,"u.ae, M-home",https://u.ae/ar-ae,2026-10-28,research/research-tech-gov-strings.md
+More options,More options,المزيد من الخيارات,Google,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Buy,Buy,اشتر,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Search,Search,بحث,Microsoft / MOH / MOF,"M-home, MOH, MOF",https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Search,Search for help,بحث عن التعليمات,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Sort,Sort by,ترتيب حسب,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Read details,Read details,قراءة التفاصيل,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Cookie banner,Accept all / Reject all,قبول الكل / رفض الكل,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Scan,Scan the QR code,امسح رمز الاستجابة السريعة,u.ae,u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Contact,Contact us,تواصل معنا,Tawakkalna / MOF,"Tawakkalna, MOF",https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Contact,Contact us,الاتصال بنا,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Contact,Contact support,الاتصال بالدعم,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Contact,Contact Apple,تواصل مع Apple,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Help,Get help,الحصول على التعليمات,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Help,Need help?,هل تحتاج إلى مساعدة؟,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Help,Help,المساعدة,Google Accounts footer,G-login,https://accounts.google.com/ServiceLogin?hl=ar (live sign-in UI),2026-10-28,research/research-tech-gov-strings.md
+Help,How can we help you?,كيف يمكننا مساعدتك؟,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Help,What do you need help with today?,ما الذي تحتاج إلى مساعدة فيه اليوم؟,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Complaint,Submit a complaint,تقديم شكوى,Saudi MOH,MOH,https://www.moh.gov.sa/Ministry/eTransactions/Pages/National-Access.aspx,2026-10-28,research/research-tech-gov-strings.md
+Subscribe,Subscribe now,اشترك الآن,Saudi MOH,MOH,https://www.moh.gov.sa/Ministry/eTransactions/Pages/National-Access.aspx,2026-10-28,research/research-tech-gov-strings.md
+Skip link,Skip to main content,التخطّي إلى المحتوى الرئيسي,Google,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Skip link,Skip to main content,تخطي إلى المحتوى الرئيسي,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Menu,Main menu,القائمة الرئيسية,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Menu,Menu,القائمة,Google Workspace Admin,G-wsout,https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Home,Home,الرئيسية,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Home,Home,الصفحة الرئيسية,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+FAQ,Frequently asked questions,الأسئلة الشائعة,Tawakkalna / MOH,"Tawakkalna, MOH",https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+FAQ,Privacy FAQ,الأسئلة المتداولة حول الخصوصية,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+User guide,User guide,دليل المستخدم,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+User guide,Service guide,دليل الخدمة,Saudi HRSD,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+TOC,Table of contents,جدول المحتويات,Apple,A-mba,https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+UAC-style permission,Do you want to allow this app to make changes to your device?,هل تريد السماح لهذا التطبيق بإجراء تغييرات على جهازك؟,Microsoft (Windows prompt quoted in help),M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Confirm button = action verb,Sign out user (menu item and confirm button),تسجيل خروج المستخدم,Google Workspace Admin,G-wsout,https://knowledge.workspace.google.com/admin/devices/sign-a-user-out-of-a-managed-google-account?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Delete warning,You will no longer be able to use Security Checkup to review activity on that account.,"لن تتمكن من استخدام ""فحص الأمان"" لمراجعة النشاط في ذلك الحساب بعد ذلك.",Google,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Note labels,Important note: / Note:,ملاحظة مهمة: / ملاحظة:,Google,G-del,https://support.google.com/accounts/answer/32046?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Generic error heading,Something went wrong,حدث خطأ ما,Google Accounts (live UI),G-new,"https://accounts.google.com/NewAccount?hl=AR (live UI, rendered an error state)",2026-10-28,research/research-tech-gov-strings.md
+Generic error body,"Sorry, an error occurred. Please try again.",عذرًا، حدث خطأ. يُرجى إعادة المحاولة.,Google Accounts (live UI),G-new,"https://accounts.google.com/NewAccount?hl=AR (live UI, rendered an error state)",2026-10-28,research/research-tech-gov-strings.md
+Loading,Loading,جارٍ التحميل,Google Accounts (live UI),G-new,"https://accounts.google.com/NewAccount?hl=AR (live UI, rendered an error state)",2026-10-28,research/research-tech-gov-strings.md
+Wrong password,Incorrect password,كلمة مرور غير صحيحة,Microsoft,M-2sv,https://support.microsoft.com/ar-sa/help/12408,2026-10-28,research/research-tech-gov-strings.md
+Can't (failure framing),Can't sign in ...,تعذُّر تسجيل الدخول ...,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Can't get code,Can't get the verification code,لا يمكنه الحصول على رمز التحقّق,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Delay notice,This change may take several minutes to take effect,يمكن أن يستغرق تفعيل هذا التغيير في حساب المستخدم عدة دقائق,Google Workspace,G-ws2sv,https://knowledge.workspace.google.com/admin/support/troubleshooting/troubleshoot-login-challenges-2-step-verification-and-sign-in-issues?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+No results,No results,لا نتائج,Microsoft (search),M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Form validation,Please select one of these options,يرجى تحديد أحد هذه الخيارات,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Install failed,Why can't I install Microsoft 365 or Office?,لماذا لا يمكنني تثبيت Microsoft 365 أو Office؟ **(snippet)**,Microsoft,https://support.microsoft.com/ar-SA/Office/lifecycle/lc-account/why-can-t-i-install-microsoft-365-or-office,https://support.microsoft.com/ar-SA/Office/lifecycle/lc-account/why-can-t-i-install-microsoft-365-or-office,2026-10-28,research/research-tech-gov-strings.md
+Bad-example guidance,"""Sign in."" given as an unhelpful error message",سجِّل الدخول.,Google developer docs (error-writing guide),https://developers.google.com/workspace/chat/write-error-messages?hl=ar,https://developers.google.com/workspace/chat/write-error-messages?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Success,You're all set! Office is now installed.,أصبحت جاهزا! تم تثبيت Office الآن,Microsoft,M-inst,https://support.microsoft.com/ar-sa/office/4414eaaf-0478-48be-9c42-23adc4716658,2026-10-28,research/research-tech-gov-strings.md
+Empty (search),No results,لا نتائج,Microsoft,M-home,https://support.microsoft.com/ar-sa,2026-10-28,research/research-tech-gov-strings.md
+Status (duration),Instant,فوري,Saudi HRSD,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Status,Order status,حالة الطلب,Apple.com,A-com,https://www.apple.com/sa-ar/,2026-10-28,research/research-tech-gov-strings.md
+Status,Status dashboard,لوحة تحكم الحالة,Google Help,G-home,https://support.google.com/?hl=ar,2026-10-28,research/research-tech-gov-strings.md
+Account status,Your account has been suspended,تم إيقاف حسابك **(snippet)**,Google Workspace,(see section 1),,2026-10-28,research/research-tech-gov-strings.md
+Feedback prompt,Was this helpful?,هل كان هذا مفيدًا؟,Apple,A-mba,https://support.apple.com/ar-ae/guide/macbook-air/sign-in-with-your-apple-id-apd20ea53580/2024/mac/14.3,2026-10-28,research/research-tech-gov-strings.md
+Feedback prompt,Was this page helpful?,هل كانت هذه الصفحة مفيدة؟,Saudi HRSD / MOF,"HRSD, MOF",https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Feedback prompt,Was the information on this page helpful to you?,هل كانت معلومات هذه الصفحة مفيدة لك؟,u.ae,u.ae-PASS,https://u.ae/ar/about-the-uae/digital-uae/digital-transformation/platforms-and-apps/the-uae-pass-app,2026-10-28,research/research-tech-gov-strings.md
+Rating prompt,How would you rate this service?,كيف تقيم هذه الخدمة؟,Saudi HRSD,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Rating scale,Rate your experience from (1) weak to (5) excellent,قيم تجربتك من (1) ضعيف إلى (5) ممتاز,Saudi HRSD,HRSD,https://www.hrsd.gov.sa/ministry-services/services/%D8%AA%D8%B3%D8%AC%D9%8A%D9%84-%D8%A7%D9%84%D8%AF%D8%AE%D9%88%D9%84,2026-10-28,research/research-tech-gov-strings.md
+Satisfaction,How satisfied are you with the content on this portal?,ما مدى رضاك عن المحتوى المتاح على هذه البوابة؟,u.ae,u.ae,https://u.ae/ar-ae,2026-10-28,research/research-tech-gov-strings.md
+Welcome,Welcome to Absher (plural you),أهلاً بكم في أبشر,Absher,Absher,https://www.absher.sa/portal/landing.html,2026-10-28,research/research-tech-gov-strings.md
+Welcome,Welcome to Tawakkalna (singular you),أهلاً بك في توكلنا,Tawakkalna,Tawakkalna,https://ta.sdaia.gov.sa/ar/index,2026-10-28,research/research-tech-gov-strings.md
+Last updated,Date of last update to page content,تاريخ آخر تحديث لمحتوى الصفحة,Saudi MOF,MOF,https://www.mof.gov.sa/eservices/Pages/IAM_login.aspx?lang=ar,2026-10-28,research/research-tech-gov-strings.md
+Header link,Sign in,تسجيل الدخول,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Header link,Log in,تسجيل الدخول,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Header link,Sign up,تسجيل,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Header link,Log in,تسجيل الدخول,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Header CTA,Create your store for free,أنشئ متجرك مجاناَ,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Header link,Login (short),الدخول,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Header link,Sign in,تسجيل الدخول,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Header link,Log in,تسجيل الدخول,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Header link,Login (short),الدخول,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Header link,Log in to your store,الدخول لمتجرك,Zid,ZIDH,https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Header CTA,Create account,إنشاء حساب,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Header link,Create a partner account,إنشاء حساب للشركاء,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Footer link,Partner login,تسجيل الدخول للشركاء,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Nav link,Log in as a partner,تسجيل دخول كـشريك,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Step text,Log in or create a new account with your mobile number,سجل دخولك أو أنشئ حساب جديد برقم جوالك,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Step text,"If this is your first order, verify your identity",إذا كان هذا أول طلب لك مع تمارا تحقق من هويتك,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Help step,Verify your identity,أكّد هويتك,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Body,Select an option or log in to chat with one of our support agents,حدد خيارا أو سجل الدخول للدردشة مع أحد وكلاء دعم العملاء لدينا.,Talabat,TLBC,https://www.talabat.com/ar/kuwait/contact-us,2026-10-28,research/research-commerce-strings.md
+CTA,Register now,سجّل الآن,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+CTA,Register as a delivery rider,سجّل كمندوب توصيل,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Help article title,"My password isn't working, what should I do?",كلمة المرور لا تعمل، ماذا أفعل؟,Tabby,TABPW,https://tabby.ai/ar-SA/help/help-account-and-settings/my-password-isnt-working-what-should-i-do,2026-10-28,research/research-commerce-strings.md
+Help body,username and password,اسم المستخدم وكلمة المرور,Tabby,TABPW,https://tabby.ai/ar-SA/help/help-account-and-settings/my-password-isnt-working-what-should-i-do,2026-10-28,research/research-commerce-strings.md
+Help body,reset the password,إعادة ضبط كلمة المرور,Tabby,TABPW,https://tabby.ai/ar-SA/help/help-account-and-settings/my-password-isnt-working-what-should-i-do,2026-10-28,research/research-commerce-strings.md
+Help article title,Sign in / sign up with social media accounts,تسجيل الدخول / التسجيل باستخدام حسابات التواصل الاجتماعي,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Menu item (account),My Account,حسابي,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Menu item,Personal data,البيانات الشخصية,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Menu item,Close account,إغلاق الحساب,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Confirm button,Delete account,احذف الحساب,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Save,Save,حفظ,Zid,"ZIDCUST, ZIDWAL",https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Create,Create icon,أيقونة إنشاء,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Edit,Edit icon,أيقونة تعديل,Zid,ZIDEDIT,https://help.zid.sa/edit-custome-info/,2026-10-28,research/research-commerce-strings.md
+Add,Add option,إضافة خيار,Zid,ZIDSHIP,https://help.zid.sa/custom-shipping/,2026-10-28,research/research-commerce-strings.md
+Add / deduct,Add / Deduct (action select),إضافة / خصم,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+View details,View details,عرض التفاصيل,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Create,Create offer,إنشاء عرض,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Create,Create new transaction,إنشاء عملية جديدة,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Continue,Continue (deletion flow),استمرار,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Continue,Choose your location and continue,اختر موقعك وتابع,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Shop now,Shop now,تسوق الحين,Tamara,"TAM, TAMAPP",https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Order now,Order now,اطلب الحين,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Order,Order food / groceries / flowers / medicine,اطلب الطعام / اطلب البقالة / اطلب الورود / اطلب الدواء,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Buy now pay later,"Buy now, pay later",اشتر الآن وادفع لاحقًا,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Pay later,Pay later,ادفع لاحقًا,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Pay later (category),Pay later,ادفع لاحقًا,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Pay (nav pillar),Pay,الدفع,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Pay,Pay online / Pay in-store,ادفع أونلاين / ادفع داخل المحل,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Pay,Pay with your number,ادفع برقمك,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Download app,Download the app,حمّل التطبيق,"Tamara, Tabby","TAM, TABH",https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Download app,Download the Talabat app,حمّل تطبيق طلبات,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Download app,Download the app now,حمل التطبيق الآن,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Download app,Ready to shop? Download the app!,جاهز للتسوق؟ حمّل التطبيق!,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Learn more,Learn more,اعرف أكثر,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Learn more,Learn more,اعرف المزيد,"Talabat, Foodics","TLB, FDX",https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Read more,Read more,قراءة المزيد,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Discover,Discover offers,اكتشف العروض,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Discover,Discover now,اكتشف الآن,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Discover,Discover Foodics Pay,إكتشف فودكس Pay,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+View all,View all,مشاهدة الكل,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+View all,Show all...,عرض الكل...,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+View all,View all sectors,عرض جميع القطاعات,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+View all,View all articles (9),عرض كل المقالات (9) ←,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Show more,Show more,عرض المزيد,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Show more,View more places,مشاهدة المزيد من الأماكن,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Join,Join Tamara now,انضم إلى تمارا الآن,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Join,Join as a merchant,انضم كتاجر,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Join,Join as a partner,انضم كشريك,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Join (heading),Join us as a partner,انظم إلينا كشريك,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Join,Join now as a partner,انضم الآن كشريك,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Join,Become our partner,كن شريكًا لنا,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Demo,Request a demo,اطلب عرض تجريبي,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Demo,Request a system demo,أطلب عرض للنظام,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Try,Try the Foodics system,جرب نظام فودكس,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Go (Careem pillar),Go / Ride,انطلق,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Error page buttons,Technical support / Home page,الدعم الفني / الصفحة الرئيسية,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Instruction verb,Tap your preferred payment plan,اختر تمارا كوسيلة دفع واضغط على خطة الدفع المرغوبة,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Instruction verb,"After adding the data, press the Create icon",بعد إضافة البيانات قم بالضغط على أيقونة إنشاء,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Logo alt text,"noon logo, press to go to the home page",شعار نون، اضغط للذهاب للصفحة الرئيسية,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Label,Customer name,اسم العميل,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Name,الاسم,Zid,"ZIDEDIT, ZIDWAL",https://help.zid.sa/edit-custome-info/,2026-10-28,research/research-commerce-strings.md
+Label (optional),Email (optional),البريد الإلكتروني ( إختياري ),Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label (optional),Email (optional),البريد الإلكتروني (اختياري),Zid,ZIDEDIT,https://help.zid.sa/edit-custome-info/,2026-10-28,research/research-commerce-strings.md
+Label,Mobile number,رقم الجوال,Zid,"ZIDCUST, ZIDEDIT",https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Gender,الجنس,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Date of birth (optional),تاريخ الميلاد (اختياري),Zid,ZIDEDIT,https://help.zid.sa/edit-custome-info/,2026-10-28,research/research-commerce-strings.md
+Label,Country / City,الدولة / المدينة,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Company name,اسم الشركة,Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Tax number (optional),الرقم الضريبي. ( اختياري ),Zid,ZIDCUST,https://help.zid.sa/create-customer/,2026-10-28,research/research-commerce-strings.md
+Label,Transaction amount,مبلغ العملية,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Label,Start date / End date,تاريخ البدء / تاريخ الانتهاء,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Label,Minimum order,الحد الأدنى للطلب,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Search placeholder,I'd like to know more about ...,أود ان أعرف أكثر عن ...,Zid,ZIDH,https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Search section,Most searched topics:,المواضيع الأكثر بحثاً:,Zid,ZIDH,https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Help hero,How can we help you?,كيف نقدر نساعدك ؟,Zid,ZIDH,https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Body,your registered mobile number,رقم جوالك المسجل,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Notification channels,App notifications / Email / WhatsApp / SMS,إشعارات التطبيق / البريد الإلكتروني / الواتساب / الرسائل النصية,Tabby,TABNOT,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-manage-my-notification-preferences,2026-10-28,research/research-commerce-strings.md
+Generic error title (404),Something went wrong,حدث خطأ ما,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+404 body,We can't find the page you want. You can browse the support section or return to the home page.,لا نستطيع العثور على الصفحة التي تريدها. يمكنك تصفح قسم الدعم الفني أو العودة إلى الصفحة الرئيسية.,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Decline title,Why was my purchase via Tabby not approved?,لماذا لم تتم الموافقة على عملية شراء لي عبر تابي؟,Tabby,TABDEC,https://tabby.ai/ar-SA/help/help-declined-purchases/why-was-my-tabby-purchase-not-approved,2026-10-28,research/research-commerce-strings.md
+Decline recovery,"If your purchases exceed the limit, remove some items from your cart and try again",إذا تجاوزت قيمة مشترياتك الحد المسموح، احذف بعض المنتجات من سلة التسوق وحاول مرة أخرى,Tabby,TABDEC,https://tabby.ai/ar-SA/help/help-declined-purchases/why-was-my-tabby-purchase-not-approved,2026-10-28,research/research-commerce-strings.md
+Decline recovery,we recommend trying to purchase again,نوصي بمحاولة الشراء مرة أخرى,Tabby,TABDEC,https://tabby.ai/ar-SA/help/help-declined-purchases/why-was-my-tabby-purchase-not-approved,2026-10-28,research/research-commerce-strings.md
+Decline FAQ (dialect),Why was my order rejected?,ليش تم رفض طلبي؟,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Error FAQ (dialect),I can't use Tamara at a certain store!,ما أقدر استخدم تمارا عند متجر معين!,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Category,Declined purchases,عمليات الشراء المرفوضة,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Empty state,No articles in this section,لا توجد مقالات في هذا القسم,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Success/celebration (cart message),"Congratulations, you earned cashback! 🎉 [amount] will be added to your wallet after the order is completed.",مبروك، كسبت الكاش باك! 🎉 سيتم إضافة [المبلغ] لمحفظتك بعد اكتمال الطلب.,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Completion (dialect),Done! Track the remaining payments via the app,خلصنا! تابع باقي الدفعات عن طريق التطبيق,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Step,Complete the payment and track the remaining payments,كمّل الدفعة وتابع باقي الدفعات عن طريق التطبيق,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Status,Pending / Available / Reserved,معلّق / متاح / محجوز,Zid,ZIDWAL,https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Help reassurance,Need help? We're here for you.,تحتاج مساعدة؟ نحن هنا من أجلك.,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Help reassurance,Need help? Our team is with you step by step,تحتاج مساعدة؟ فريقنا معك خطوة بخطوة,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Help prompt,Need help?,تحتاج مساعدة؟,Talabat,TLBC,https://www.talabat.com/ar/kuwait/contact-us,2026-10-28,research/research-commerce-strings.md
+Cart,Shopping cart,عربة التسوق,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Cart (in help copy),shopping cart,سلة التسوق,Tabby,TABDEC,https://tabby.ai/ar-SA/help/help-declined-purchases/why-was-my-tabby-purchase-not-approved,2026-10-28,research/research-commerce-strings.md
+Abandoned carts,Abandoned carts,السلات المتروكة,"Salla, Zid","SALH, ZIDH",https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Orders,Orders,الطلبات,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Orders,Orders (help category),الطلبات,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Orders,Track orders,تتبع الطلبات,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Wishlist,Favourites,المفضلة,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Wishlist,Wish list,قائمة الامنيات,Zid,ZIDH (category list),,2026-10-28,research/research-commerce-strings.md
+Home,Home,الرئيسية,"Salla, Zid","SALH, ZIDH",https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Home,Home page,الصفحة الرئيسية,"Salla, Foodics, stc","SALH, FDX, STC",https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Account,My account,حسابي,Tabby,TABDEL,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-delete-my-account,2026-10-28,research/research-commerce-strings.md
+Settings,Account & settings,الحساب والإعدادات,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Settings,Settings icon / Notifications icon,أيقونة الإعدادات / أيقونة الإشعارات,Tabby,TABNOT,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-manage-my-notification-preferences,2026-10-28,research/research-commerce-strings.md
+Payments,Payments (help category),المدفوعات,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Payments,Your payments,مدفوعاتك,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Rides,Your rides,رحلاتك,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Store,Store,المتجر,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Help,Help center,مركز المساعدة,"Tamara, Foodics, Salla","TAM, FDX, SALEN",https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Help,Help/service center,مركز الخدمة,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Help,Support center,مركز الدعم,Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Help,Help,مساعدة,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Help,Technical support,الدعم الفني,"stc, Tamara","STC, TAM",https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Help,Support,الدعم / دعم,stc / Foodics,"STC, FDX",https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Contact,Contact us,تواصل معنا,"Zid, HungerStation, Tamara, Foodics, stc","ZIDH, HS, TAMAPP, FDX, STC",https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Contact,Contact us,إتصل بنا,Talabat,"TLB, TLBC",https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Contact,Contact us via chat,تواصل معنا عبر الدردشة,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Live chat,live chat,المحادثة المباشرة,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+FAQ,FAQs,الأسئلة الشائعة,Zid,ZIDH,https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+FAQ,Customer FAQs,الأسئلة الشائعة للعميل,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+FAQ,FAQs,أسئلة شائعة,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+FAQ,FAQs,أسئلة متكررة,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+FAQ,Q&A,أسئلة وأجوبة,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Language switch,Arabic,عربي,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Language switch,Arabic,العربية,Tabby,TABH,https://tabby.ai/ar-SA/help,2026-10-28,research/research-commerce-strings.md
+Language switch,Arabic (single letter),ع,Salla,SALEN,https://help.salla.sa/en/article/configure-salla-store-options/cmtecl10d4doln1casl5y4v7,2026-10-28,research/research-commerce-strings.md
+Notifications settings,Offers / Updates and news / Discounts,العروض / التحديثات والأخبار / الخصومات,Tabby,TABNOT,https://tabby.ai/ar-SA/help/help-account-and-settings/how-do-i-manage-my-notification-preferences,2026-10-28,research/research-commerce-strings.md
+Follow,Follow us,تابعنا,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Legal,Terms and conditions,الشروط والأحكام,Tamara,TAM,https://tamara.co/ar,2026-10-28,research/research-commerce-strings.md
+Legal,Terms and conditions,الشروط و الأحكام,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+Legal,Terms of use / Terms of service,شروط الاستخدام / شروط الخدمة,HungerStation / Careem,"HS, CRM",,2026-10-28,research/research-commerce-strings.md
+Legal,Privacy policy,سياسة الخصوصية,"Tamara, HungerStation, Careem, Foodics",various,,2026-10-28,research/research-commerce-strings.md
+Legal,Site privacy,خصوصية الموقع,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md
+About,About us,من نحن,"Careem, stc","CRM, STC",https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Footer,All rights reserved,جميع الحقوق محفوظة / الحقوق محفوظة,Foodics / stc,"FDX, STC",https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Category,Groceries,البقالة,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category,Groceries,بقالة,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Category,Groceries (Saudi colloquial),المقاضي,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Fulfilment,Pick up yourself,استلم بنفسك,HungerStation,HS,,2026-10-28,research/research-commerce-strings.md
+Merch section (dialect),"Latest arrivals (""the latest thing that arrived"")",آخر شي وصل,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category (loanword),Mother & baby,مستلزمات الأم والبيبي,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category (loanword),Snacks,سناكات,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category (loanword),Tablets / Laptops,تابلت / اللابتوبات,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category,Mobiles & accessories,الجوالات والاكسسوارات,noon,NOON,https://www.noon.com/saudi-ar/,2026-10-28,research/research-commerce-strings.md
+Category,Smartphones,الهواتف الذكية,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Loanword,Cashback,الكاش باك,"Zid, Tabby","ZIDWAL, TABH",https://help.zid.sa/customer-wallet/,2026-10-28,research/research-commerce-strings.md
+Loanword,online,أونلاين,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Loanword,cashier,الكاشير,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Loanword,Dine out,داين أوت,Careem,CRM,https://www.careem.com/ar-AE/,2026-10-28,research/research-commerce-strings.md
+Loanword vs native,Waiter app,تطبيق الويتر / تطبيق النادل (both on the same page),Foodics,FDX,https://www.foodics.com/ar/,2026-10-28,research/research-commerce-strings.md
+Code,Promo codes,أكواد قطاف الترويجية,stc,STC,https://www.stc.com.sa/personal/ar,2026-10-28,research/research-commerce-strings.md
+Code,Share your code,شارك رمزك,Salla,SALEN,https://help.salla.sa/en/article/configure-salla-store-options/cmtecl10d4doln1casl5y4v7,2026-10-28,research/research-commerce-strings.md
+Coupon,Discount coupons,كوبونات التخفيض,Salla,SALH,https://help.salla.sa/ar,2026-10-28,research/research-commerce-strings.md
+Discounts,Discounts,الخصومات,"Zid, Tabby","ZIDH, TABNOT",https://help.zid.sa/,2026-10-28,research/research-commerce-strings.md
+Dialect,Control your money,تحكّم بفلوسك,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Dialect,Pay at your ease,ادفع براحتك,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Dialect,Questions that might come to mind,أسئلة ممكن تجي في بالك,Tamara,TAMAPP,https://tamara.co/ar-sa/app,2026-10-28,research/research-commerce-strings.md
+Untranslated variable,Cities we serve in Kuwait,مدن نخدمها في Kuwait,Talabat,TLB,https://www.talabat.com/ar/kuwait,2026-10-28,research/research-commerce-strings.md

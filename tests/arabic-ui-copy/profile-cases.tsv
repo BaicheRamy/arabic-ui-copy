@@ -1,0 +1,7 @@
+# profile	expected message fragment or "none"	extension	text
+gulf	none	.txt	أدخل كلمة المرور
+gulf	none	.txt	رقم الجوال
+gulf	Glossary	.txt	أدخل الباسورد
+house	Glossary: use كلمة السر	.txt	أدخل كلمة المرور
+maghreb	none	.txt	السعر 2,5 د.ج
+egypt	Decimal comma	.txt	السعر 2,5 ج.م

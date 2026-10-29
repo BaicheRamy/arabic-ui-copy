@@ -1,0 +1,14 @@
+name: test
+on: [push, pull_request]
+jobs:
+  checker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Checker tests (cases, profiles, every correct example)
+        run: SKILL_DIR=skills/arabic-ui-copy python3 tests/arabic-ui-copy/run_tests.py
+      - name: Eval scores still reproduce from the saved outputs
+        run: cd evidence/arabic-ui-copy/evals && python3 score.py
