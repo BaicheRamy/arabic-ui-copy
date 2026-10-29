@@ -1,0 +1,92 @@
+# expected message fragment (or "none")	file extension	text
+Hamza on a connecting alif: إسم	.txt	أدخل إسمك قبل التنزيل
+Glossary: use تحميل instead of تنزيل	.txt	أدخل إسمك قبل التنزيل
+Glossary: use تحميل instead of تنزيل	.json	"s": "جارٍ التنزيل…"
+Glossary: use تحميل instead of تنزيل	.txt	للتنزيل انقر هنا
+Glossary: use فشل instead of فاشل	.txt	الحالة فاشلة
+Hamza on a connecting alif: إستمرار	.txt	زر الإستمرار
+Likely typo: انظم -> انضم	.txt	انظم إلينا الآن
+Glossary: use انقر instead of اضغط	.txt	اضغط على الزر
+none	.txt	اضغط مع الاستمرار على الصورة
+Glossary: use اضغط مع الاستمرار	.txt	اضغط مطولًا على الصورة
+Glossary: use البريد الإلكتروني instead of إيميل	.txt	سجّل بالإيميل
+Straight quotes around Arabic	.txt	لم نجد نتائج لـ"ساعة".
+Straight quotes around Arabic	.json	"q": "لم نجد نتائج لـ \"ساعة\""
+none	.json	["الاسم", "العمر"]
+Numbers 11-99 take the singular	.txt	حُدد 11 ملفات
+Numbers 11-99 take the singular	.txt	15 ملفات
+Numbers 3-10 take the plural	.txt	5 ملفًا
+Gendered greeting	.txt	عزيزي {name}، أهلاً بك
+Calqued English phrasing	.txt	كم من المحتمل أن توصي بنا؟
+منذ and مضت together	.txt	تم التحديث منذ 5 دقائق مضت
+Relative time: house form is قبل	.txt	آخر تحديث منذ 5 دقائق
+Apology on a user-input error	.txt	عذرًا، عنوان البريد الإلكتروني غير صحيح.
+More than one exclamation mark	.txt	شكرًا!!
+Glossary: use كلمة السر instead of كلمة المرور	.txt	كلمة المرور الخاصة بك
+Calqued possessive	.txt	كلمة المرور الخاصة بك
+Exclamation mark next to an error word	.txt	فشلت العملية!
+Exclamation mark next to an error word	.txt	يتعذر الحفظ الآن!
+none	.txt	رابط خاص بكل حساب
+none	.txt	قسم خاص بكتابة التقارير
+none	.txt	أضف 1/2 كوب سكر
+none	.txt	الإصدار 2 جديد
+none	.txt	الخطوة 1 من 3
+none	.txt	أرسل رقمًا من 1 إلى 5.
+none	.txt	عضو منذ 2020
+none	.txt	بالضبط كما طلبت
+none	.txt	10 أيام تقريبًا
+none	.txt	حُدِّد ملفان
+none	.txt	آخر تحديث قبل 5 دقائق
+none	.txt	15 رسالة جديدة
+none	.txt	3 إشعارات غير مقروءة
+none	.txt	عذرًا، حدث خطأ. يُرجى إعادة المحاولة.
+none	.txt	بوتيك الأزياء
+none	.txt	إسماعيل
+none	.txt	10:30 صباحًا
+People after 3-10 take the genitive plural	.txt	3 مستخدمون نشطون
+none	.txt	3 مستخدمين نشطين
+none	.txt	3 عيون
+none	.txt	10 ملايين ريال
+A non-human plural takes a feminine singular adjective	.txt	3 إشعارات غير مقروءين
+Dates: day, month name, year	.txt	تنتهي في مارس 5, 2026
+none	.txt	تنتهي في 5 مارس 2026
+State label	.txt	الإشعارات: إيقاف
+none	.json	"off": "إيقاف"
+none	.txt	الإشعارات: غير مفعّلة
+Latin comma	.md	اختر “الاسم”, “العمر” من القائمة
+Latin comma	.json	  "hint": "اختر “الاسم”, “العمر”",
+Latin comma	.md	أدخل الاسم (كما في الهوية), ثم العمر
+none	.json	  "fields": ["الاسم", "العمر"],
+Latin question mark	.md	هل تريد حذف “الملف”?
+Latin semicolon	.md	اختر “الاسم”; ثم العمر
+جاري: write جارٍ	.json	  "saving": "جاري الحفظ…",
+none	.json	  "saving": "جارٍ الحفظ…",
+none	.txt	رصيد الحساب الجاري
+none	.txt	يبدأ العرض في 1 مارس 2026
+none	.txt	ينتهي العرض في 2 جانفي 2027
+none	.txt	السعر 1 ر.س فقط
+none	.txt	رسوم التوصيل 2 دينار
+none	.txt	يستغرق التوصيل 1-2 ساعة
+none	.txt	يستغرق التوصيل 1–2 يوم
+none	.txt	من 1 إلى 2 ساعة
+Digit 1 or 2	.txt	لديك 1 رسالة جديدة
+تم/يتم	.txt	تم حفظ التغييرات
+تم/يتم	.txt	يتم تحميل الملف
+تم/يتم	.txt	سيتم إرسال الرمز
+none	.txt	حُفظت التغييرات
+none	.txt	تمام، شكرًا
+قم بـ	.txt	قم بإدخال الاسم
+قم بـ	.txt	يرجى القيام بتحديث التطبيق
+none	.txt	أدخل الاسم
+Latin letters glued	.txt	ادفع باستخدامApple Pay
+Latin letters glued	.txt	حمّل تطبيقiOS الآن
+none	.txt	ادفع بـApple Pay
+none	.txt	وApple Pay متاح أيضًا
+none	.txt	ادفع باستخدام Apple Pay
+none	.json	  "msg": "لديك %1$s رسائل\nجديدة"
+Hebrew or CJK	.txt	مرحبًا שלום
+Hebrew or CJK	.txt	الاسم中文
+Placeholder written in Arabic	.json	  "hi": "مرحبًا {الاسم}"
+Placeholder written in Arabic	.json	  "hi": "مرحبًا {{الاسم}}"
+none	.json	  "hi": "مرحبًا {name}"
+none	.json	  "n": "{count, plural, one {ملف} two {ملفان} other {# ملف}}"
