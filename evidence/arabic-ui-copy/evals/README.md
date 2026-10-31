@@ -5,15 +5,17 @@
 | Run | All | Universal | House | Unseen | Checker, universal rules | Checker, all rules | Failed |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | gemini-base | 27/38 | 19/20 | 8/18 | 10/13 | 1 | 17 | E03, E04, E09, E10, E11, E17, E25, E29, E32, E36, E37 |
-| gemini-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 0 |  |
-| grok-base | 29/38 | 18/20 | 11/18 | 11/13 | 0 | 12 | E03, E09, E10, E11, E23, E24, E25, E32, E37 |
-| grok-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 0 |  |
-| haiku-base | 25/38 | 16/20 | 9/18 | 10/13 | 1 | 14 | E03, E09, E10, E11, E17, E21, E23, E24, E25, E29, E32, E36, E37 |
-| haiku-skill | 37/38 | 20/20 | 17/18 | 12/13 | 0 | 0 | E37 |
-| opus-base | 31/38 | 20/20 | 11/18 | 11/13 | 0 | 12 | E03, E09, E10, E11, E25, E32, E37 |
-| opus-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 0 |  |
-| sonnet-base | 30/38 | 20/20 | 10/18 | 11/13 | 1 | 14 | E03, E09, E10, E11, E25, E32, E36, E37 |
-| sonnet-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 0 |  |
+| gemini-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 1 |  |
+| grok-base | 29/38 | 18/20 | 11/18 | 11/13 | 0 | 11 | E03, E09, E10, E11, E23, E24, E25, E32, E37 |
+| grok-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 1 |  |
+| haiku-base | 25/38 | 16/20 | 9/18 | 10/13 | 1 | 12 | E03, E09, E10, E11, E17, E21, E23, E24, E25, E29, E32, E36, E37 |
+| haiku-skill | 37/38 | 20/20 | 17/18 | 12/13 | 0 | 1 | E37 |
+| opus-base | 31/38 | 20/20 | 11/18 | 11/13 | 0 | 10 | E03, E09, E10, E11, E25, E32, E37 |
+| opus-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 1 |  |
+| sonnet-base | 30/38 | 20/20 | 10/18 | 11/13 | 1 | 12 | E03, E09, E10, E11, E25, E32, E36, E37 |
+| sonnet-skill | 38/38 | 20/20 | 18/18 | 13/13 | 0 | 1 |  |
+
+The runs used version 1.0.0, when the house quotes were “ ”. Since 1.1.0 the checker flags “ ”, so each skill run shows 1 finding in the last checker column (E32). The case scores are unchanged.
 
 "Unseen" counts the 13 cases whose answer is not written anywhere in the skill (SKILL.md or references/). The other 25 are in it word for word or close.
 

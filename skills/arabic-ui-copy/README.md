@@ -4,7 +4,7 @@ An Agent Skill that makes coding agents write Arabic interface text the way a na
 
 AI agents write Arabic UI text that reads as translated English: احفظ instead of حفظ, "كلمة المرور الخاصة بك", تم حفظ, English question marks, Arabic-Indic digits in one place and Western in the next. This skill gives the agent one consistent house style, a glossary of about 60 terms, before-and-after examples, and a checker script with tests.
 
-The rules come from comparing about 430 live strings from Apple, Google, Microsoft, Gulf government services and Arab commerce apps, then settling every disagreement in a 59-question review by a native Arabic product designer. The decision log and 402 of those strings, with source and date, are published in the repository under `evidence/arabic-ui-copy/`.
+The rules come from comparing about 470 live strings from Apple, Google, Microsoft, Gulf government services, Arab commerce apps and Thmanyah, then settling where they disagree into one house style, set by a native Arabic product designer. 438 of those strings, with source and date, are published in the repository under `evidence/arabic-ui-copy/`.
 
 Version 1.0.0. See [CHANGELOG.md](CHANGELOG.md).
 
@@ -40,7 +40,7 @@ python3 scripts/check_copy.py --sms templates/sms/
 
 ## Scope
 
-Modern Standard Arabic for product UI and the messages it sends, with light dialect allowed in marketing and onboarding. Western digits, with number and date formats as Gulf and Egyptian readers expect them; the maghreb profile switches to a decimal comma. This is one house style, not the only correct Arabic: كلمة السر and تحميل are choices, explained in the decision log. Use a profile, or fork the glossary to change a term, and the checker follows it.
+Modern Standard Arabic for product UI and the messages it sends, with light dialect allowed in marketing and onboarding. Western digits, with number and date formats as Gulf and Egyptian readers expect them; the maghreb profile switches to a decimal comma. This is one house style, not the only correct Arabic: كلمة السر and تحميل are deliberate choices. Use a profile (the gulf profile accepts كلمة المرور), or fork the glossary to change a term, and the checker follows it.
 
 ## Author
 
