@@ -110,7 +110,8 @@ UNIVERSAL = {"Latin question mark after Arabic: use ؟", "Latin comma between Ar
              "A non-human plural takes a feminine singular adjective: إشعارات غير مقروءة",
              "Placeholder written in Arabic: keep it exactly as in the source ({name})",
              "Hebrew or CJK characters in Arabic text",
-             "Latin letters glued to Arabic: add a space (باستخدام Apple Pay)"}
+             "Latin letters glued to Arabic: add a space (باستخدام Apple Pay)",
+             "Numbers 11-99 take a singular with tanween: 11 متابعًا, not 11 متابع", "Space before ؟ ، ؛: remove it"}
 
 # Nouns after which a digit is a label (الخطوة 1, الإصدار 2), not a count.
 LABEL_NOUNS = ["رقم", "الخطوة", "الصفحة", "الإصدار", "المستوى", "المرحلة", "الجزء", "الفصل", "الدرس", "البند"]
@@ -124,7 +125,7 @@ CURRENCIES = ("(?:ر\\.س|ريال|ريالات|د\\.إ|درهم|دراهم|ج\\
 TIME_UNITS = ("(?:ثوان|ثانية|ثانيتين|دقيقة|دقيقتين|دقائق|ساعة|ساعتين|ساعات|يوما?|يومين|أيام"
               "|أسبوعا?|أسبوعين|أسابيع|شهرا?|شهرين|أشهر|سنة|سنتين|سنوات|عاما?|عامين|أعوام)")
 
-# A curly quote or bracket can sit between an Arabic word and a Latin mark: “الاسم”, “العمر”.
+# A quote mark or bracket can sit between an Arabic word and a Latin mark: «الاسم», «العمر».
 # Straight quotes are left out, because in code "الاسم", "العمر" is syntax, not copy.
 CLOSE = "[”»)]?"
 OPEN = "[“«(]?"
@@ -134,8 +135,8 @@ RULES = [
     ("Latin question mark after Arabic: use ؟", re.compile(r"[" + AR + r"]" + CLOSE + r"\s*\?"), False),
     ("Latin comma between Arabic words: use ،", re.compile(r"[" + AR + r"]" + CLOSE + r"\s*,\s*" + OPEN + r"[" + AR + r"]"), False),
     ("Latin semicolon between Arabic words: use ؛", re.compile(r"[" + AR + r"]" + CLOSE + r"\s*;\s*" + OPEN + r"[" + AR + r"]"), False),
-    ("Guillemets «»: house quotes are “ ”", re.compile(r"[«»]"), False),
-    ("Straight quotes around Arabic: use “ ”", re.compile(r'[ء-ي]\\?"[ء-ي]|\\"[ء-ي]|[ء-ي]\\"'), False),
+    ("Curly quotes “ ”: house quotes are « »", re.compile(r"[“”]"), False),
+    ("Straight quotes around Arabic: use « »", re.compile(r'[ء-ي]\\?"[ء-ي]|\\"[ء-ي]|[ء-ي]\\"'), False),
     ("Arabic-Indic digits: use Western 0-9", re.compile(r"[٠-٩۰-۹]"), False),
     ("Three dots: use the single character …", re.compile(r"[" + AR + r"]" + CLOSE + r"\s*\.\.\."), False),
     ("Calqued possessive: drop الخاص بك / الخاصة بك", re.compile(r"(?<![ء-ي])(?:ال)?خاص(?:ة)? بك(?:م|ما|ن)?(?![ء-ي])"), True),
@@ -179,8 +180,44 @@ class Glued:
 
 RULES.append(("Latin letters glued to Arabic: add a space (باستخدام Apple Pay)", Glued(), False))
 
+
+class Tatweel:
+    """The stretching character ـ inside words (تابــع). A one-letter prefix before a quote, a Latin word or a
+    digit (لـ«ساعة», بـApple Pay) and the Hijri date suffix هـ are fine."""
+    skip = re.compile(r"(?<![ء-ي])[بلكوف]ـ(?![ء-ي])|(?<![ء-ي])هـ(?![ء-ي])")
+
+    def search(self, s):
+        return "ـ" in self.skip.sub(" ", s)
+
+
+class ManyBare:
+    """A number ending in 11-99 (11, 25, 199) before a masculine noun with no tanween: 11 متابع -> 11 متابعًا.
+    Feminine nouns in ة take nothing (15 رسالة). Years, times, labels (رقم 15) and abbreviations are skipped."""
+    rx = re.compile(r"(?<![\d.,/:])" + NOT_LABEL + r"(\d{1,3}(?:,\d{3})*|\d+)\s+([ء-ي]+)([ًٌٍَُِّْ]*)(?![:\d])")
+    skip_words = {"من", "إلى", "الى", "في", "على", "أو", "او", "و", "ثم", "حتى", "عن", "مع", "كم", "سم", "مم", "كغ", "غ", "مل", "ألف", "مليون", "مليار",
+                  # units written as loanwords, which products never inflect
+                  "بايت", "كيلوبايت", "ميجابايت", "ميغابايت", "جيجابايت", "غيغابايت", "تيرابايت", "بكسل", "كيلو", "كيلومتر", "متر", "سنتيمتر", "ملليمتر", "كيلوغرام", "كيلوجرام", "جرام", "غرام", "لتر", "واط", "فولت"}
+
+    def search(self, s):
+        for m in self.rx.finditer(s):
+            num, word, marks = m.group(1).replace(",", ""), m.group(2), m.group(3)
+            n = int(num)
+            if len(num) == 4 and num[:2] in ("19", "20", "14"):
+                continue  # a year, Gregorian or Hijri
+            if not 11 <= n % 100 <= 99 or len(word) < 3 or word.startswith("ال") or word in self.skip_words:
+                continue
+            if "ً" in marks or word.endswith(("ة", "ات", "ى", "ي", "و", "ا")) or re.match(MONTHS + "$", word) or re.match(CURRENCIES + "$", word):
+                continue
+            return True
+        return False
+
+
+RULES.append(("Tatweel ـ in UI text: remove it; it breaks search and copy-paste", Tatweel(), False))
+RULES.append(("Numbers 11-99 take a singular with tanween: 11 متابعًا, not 11 متابع", ManyBare(), False))
+RULES.append(("Space before ؟ ، ؛: remove it", re.compile(r"[ء-ي»)\d][ \t]+[؟،؛]"), False))
+
 # Only in prose files, where a straight quote before an Arabic word is never a delimiter.
-TEXT_RULES = [("Straight quotes around Arabic: use “ ”", re.compile(r'(?:^|[\s(|])"[ء-ي]'), False)]
+TEXT_RULES = [("Straight quotes around Arabic: use « »", re.compile(r'(?:^|[\s(|])"[ء-ي]'), False)]
 
 SMS_LIMIT = 70
 KEY_VALUE = re.compile(r'"([^"]*)"\s*:\s*"((?:[^"\\]|\\.)*)"')

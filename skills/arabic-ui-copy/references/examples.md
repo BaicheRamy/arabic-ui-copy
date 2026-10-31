@@ -45,6 +45,7 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | Choose a payment method | اختر طريقة الدفع الخاصة بك | يُرجى اختيار طريقة الدفع | Helper text uses يُرجى + verbal noun, which also avoids gender. |
 | Search products... | البحث عن المنتجات... | ابحث | One-word placeholder. |
 | We'll text you a code (helper text) | يُرجى إرسال رمز التحقق برسالة نصية | سنرسل لك رمز التحقق برسالة نصية | Helper text that informs is a statement; يُرجى is for instructions. |
+| First name, when it must be in Arabic script | الاسم الأول | اسمك الأول، بالعربية | Say which script when it matters, or users type it in Latin letters. |
 
 ## Empty states and dialogs
 
@@ -52,7 +53,7 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | --- | --- | --- | --- |
 | Your cart is empty | عربة التسوق الخاصة بك فارغة | لا توجد منتجات في السلة بعد | Glossary term; بعد implies it will fill. |
 | No projects yet. Create one! | لا توجد مشاريع حتى الآن. أنشئ واحدًا! | ابدأ بإنشاء أول مشروع + button إنشاء مشروع | Invitation, then a verbal-noun button. |
-| No results found | لم يتم العثور على نتائج | لم نجد نتائج لـ“ساعة”. جرّب كلمة أخرى. | Name the query in “ ”; suggest a next step. |
+| No results found | لم يتم العثور على نتائج | لم نجد نتائج لـ«ساعة». جرّب كلمة أخرى. | Name the query in « »; suggest a next step. |
 | Are you sure you want to delete this project? | هل أنت متأكد أنك تريد حذف هذا المشروع؟ | هل أنت متأكّد من حذف المشروع؟ | Shorter house pattern. |
 | Delete / Cancel (dialog buttons) | حذف / إلغاء | نعم، احذف / لا | House dialog buttons. |
 | Sign out? (dialog) | هل أنت متأكد أنك تريد تسجيل الخروج؟ · نعم · لا | هل تريد تسجيل الخروج؟ · تسجيل الخروج · إلغاء | Not destructive: هل تريد, and the action as the button. |
@@ -80,6 +81,7 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | 1 new message | 1 رسائل جديدة | رسالة جديدة واحدة | One: singular + واحد, no digit. |
 | 0 results | 0 نتائج | لا توجد نتائج | Zero is a sentence. |
 | {n} file(s) | {n} ملف(ات) | six plural forms in code | Never a bracketed ending. |
+| 11 followers | 11 متابع | 11 متابعًا | Live counts follow the plural rules too; if the code can't, use a label: المتابعون: 11. |
 
 ## Feedback, support and messages
 
@@ -96,6 +98,7 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | Sorry, this field is required | عذرًا، هذا الحقل مطلوب | هذا الحقل مطلوب | Apologise only for our own faults, never for the user's input. |
 | Thanks for reaching out! We'll reply soon. | استلمنا طلبك وسنرد عليك قريبًا. | شكرًا لتواصلك! سنردّ عليك قريبًا. | Keep the source's thanks and its vague time; don't swap in a pattern's words. |
 | Hi, I'm the {app} assistant. (first chat message) | مرحبًا، أنا مساعدك. | مرحبًا، أنا المساعد الآلي في {app}. | The first message says it's automated; المساعد alone can read as a person. |
+| How do I install the font? (FAQ question) | كيف يمكنني تثبيت الخط؟ | كيف أثبّت الخط؟ | FAQ questions are in the user's voice; drop يمكنني. |
 
 ## Punctuation, numbers and names
 

@@ -53,6 +53,7 @@ One term per concept. Use the term in **Use**. Terms in **Avoid** are what other
 | Support chat | المحادثة | الشات / شات / الدردشة | Live chat: المحادثة المباشرة |
 | Chatbot, assistant | المساعد | بوت / البوت / الشات بوت / بوت الدردشة / روبوت الدردشة | Its first message says it's automated: أنا المساعد الآلي في {app} |
 | Mention (@) | إشارة | منشن / المنشن | |
+| Follow (button) | متابعة | فولو | Unfollow: إلغاء المتابعة. Not the imperative تابع on a button |
 | Not now | ليس الآن | | |
 | Congratulations | تهانينا | | مبروك in marketing only |
 | Search (placeholder) | ابحث | | |

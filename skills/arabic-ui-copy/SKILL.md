@@ -3,13 +3,13 @@ name: arabic-ui-copy
 description: Write, translate or review Arabic interface text (buttons, form labels, errors, empty states, dialogs, toasts, status labels, navigation, rating and feedback prompts, support replies, and push, SMS and email notifications) so it reads as native product Arabic, not translated English. Use whenever a UI string is in Arabic or must be, for any product with lang="ar", dir="rtl", Arabic locale files, or an Arabic version of an English app.
 license: MIT
 metadata:
-  version: "1.0.0"
+  version: "1.1.0"
   author: BaicheRamy
 ---
 
 # Arabic UI copy
 
-House rules for Arabic interface text, set by a native Arabic product designer after comparing about 430 live strings from Apple, Google, Microsoft, Gulf government services and Arab commerce apps. Where products disagree, these rules pick one answer. Follow them exactly; do not fall back to "what most apps do".
+House rules for Arabic interface text, set by a native Arabic product designer after comparing about 470 live strings from Apple, Google, Microsoft, Gulf government services, Arab commerce apps and Thmanyah. Where products disagree, these rules pick one answer. Follow them exactly; do not fall back to "what most apps do".
 
 ## How to work
 
@@ -50,7 +50,7 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 | Session expired | Fixed string: the reason in the user's terms, then the next step | لحمايتك، سجّلنا خروجك. سجّل الدخول للمتابعة. |
 | Progress | جارٍ + verbal noun + ellipsis character | جارٍ الحفظ… · جارٍ التحميل… |
 | Empty list | If the user can create the item on this screen: an invitation, then a verbal-noun button. Otherwise: what is missing + بعد | ابدأ بإنشاء أول مشروع + إنشاء مشروع · لا توجد منتجات في السلة بعد |
-| No search results | Name the query, suggest the next step | لم نجد نتائج لـ“ساعة”. جرّب كلمة أخرى. |
+| No search results | Name the query, suggest the next step | لم نجد نتائج لـ«ساعة». جرّب كلمة أخرى. |
 | Destructive dialog | Title: هل أنت متأكّد من + verbal noun؟ Body: what goes, and لا يمكن التراجع عن ذلك if it's final. Buttons: نعم، + imperative / إلغاء | هل أنت متأكّد من حذف المشروع؟ · سيُحذف المشروع وكل ملفاته، ولا يمكن التراجع عن ذلك. · نعم، احذف · إلغاء |
 | Confirmation dialog (not destructive) | Title: هل تريد + verbal noun؟ Buttons: the action as a verbal noun / إلغاء | هل تريد تسجيل الخروج؟ · تسجيل الخروج · إلغاء |
 | Required field | Fixed string | هذا الحقل مطلوب |
@@ -99,6 +99,7 @@ Arabic has six plural forms, chosen by the number. A single string like "{n} م�
 - **Adjectives agree with the form the number chose.** A non-human plural takes a feminine singular adjective: 3 إشعارات غير مقروءة. With 11-99 the adjective follows the singular: 15 ملفًا جديدًا · 11 إشعارًا غير مقروء. The dual takes a dual adjective: إشعاران غير مقروءين. واحد comes last: رسالة جديدة واحدة.
 - **People take the genitive plural after 3-10**: 3 مستخدمين, not 3 مستخدمون; then 15 مستخدمًا and 100 مستخدم.
 - Never use a bracketed ending such as ملف(ات) or رسالة/رسائل.
+- **Live counts** (followers, posts, views) need the same forms. If the code can't choose one, write the count as a label: المتابعون: 11, not 11 متابع.
 - In code, keep six forms per message, not per noun: the dual and plural change with their place in the sentence (حُدِّد ملفان · جارٍ رفع ملفين). Pick the form with `new Intl.PluralRules('ar').select(n)`:
 
 ```js
@@ -112,8 +113,9 @@ ICU MessageFormat does the same: `{count, plural, zero {لم يُحدَّد أي
 
 - **Shadda on verbs and participles** (سجّل، تحقّق، حُدِّد، معلّق، مفعّل، متّصل), not on nouns and adjectives that read one way without it (كلمة السر، مرة، أول، الإلكتروني، التحقق). Other vowel marks only where they prevent a misreading: the passive damma (حُفظت), tanween on adverbs (عذرًا، صحيحًا).
 - **Hamza strictly.** Words that start with a connecting alif take no hamza: اتصل، اكتشف، اختر، ابحث، استمرار، انضم، اسم. In user-written content, flag a slip but do not change it.
-- **Arabic punctuation**: ، ؛ ؟ in Arabic text, never , ; ?
-- **Quotation marks**: curly double quotes “ ”, not «» and not straight "".
+- **Arabic punctuation**: ، ؛ ؟ in Arabic text, never , ; ? and no space before them.
+- **No tatweel** (ـ) in UI text: تابع, not تابــع. It breaks search and copy-paste. Only a one-letter prefix before a quote, a Latin word or a digit keeps it (لـ«ساعة»، بـApple Pay).
+- **Quotation marks**: guillemets « », not curly “ ” and not straight "".
 - **Ellipsis**: the single character … not three dots.
 - **Full stop**: none on labels, buttons, titles, helper text, toasts, banners and one-sentence errors (هذا الحقل مطلوب · حُفظت التغييرات). A full stop in body text, chat and support replies, and any message of two or more sentences (عذرًا، حدث خطأ. يُرجى إعادة المحاولة.).
 
@@ -134,7 +136,7 @@ ICU MessageFormat does the same: `{count, plural, zero {لم يُحدَّد أي
 - [ ] Every term matches the glossary; no loanwords; no "الخاص بك".
 - [ ] Success uses a passive verb or اكتمل; errors say what to do only when the user can act and no button already says it; no exclamation mark in errors.
 - [ ] Nothing added that the source does not say; no invented example values; no longer than it needs to be.
-- [ ] Arabic punctuation, “ ” quotes, single-character ellipsis.
+- [ ] Arabic punctuation, « » quotes, single-character ellipsis.
 - [ ] Shadda on verbs and participles; no hamza on connecting alif.
 - [ ] Western digits; 1,234.5 format; dates like 5 مارس 2026; relative time with قبل; brand names in Latin.
 - [ ] Every count uses the right plural form for its number, and its adjectives agree.

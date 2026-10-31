@@ -14,8 +14,7 @@ npx skills add BaicheRamy/arabic-ui-copy
 
 ## Evidence
 
-- `evidence/arabic-ui-copy/decisions.md`: the 59 house-style questions, the options and who uses each, the pick, and every later change.
-- `evidence/arabic-ui-copy/strings.csv`: 402 live Arabic UI strings with product, source URL and date collected.
+- `evidence/arabic-ui-copy/strings.csv`: 438 live Arabic UI strings with product, source URL and date collected.
 - `evidence/arabic-ui-copy/evals/`: 38 test cases run with and without the skill on five models (Claude Haiku, Sonnet and Opus, Grok, Gemini), with raw outputs and the scorer.
 - `tests/arabic-ui-copy/`: checker tests, run on every push.
 

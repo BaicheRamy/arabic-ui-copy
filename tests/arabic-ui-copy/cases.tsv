@@ -53,12 +53,12 @@ none	.txt	تنتهي في 5 مارس 2026
 State label	.txt	الإشعارات: إيقاف
 none	.json	"off": "إيقاف"
 none	.txt	الإشعارات: غير مفعّلة
-Latin comma	.md	اختر “الاسم”, “العمر” من القائمة
-Latin comma	.json	  "hint": "اختر “الاسم”, “العمر”",
+Latin comma	.md	اختر «الاسم», «العمر» من القائمة
+Latin comma	.json	  "hint": "اختر «الاسم», «العمر»",
 Latin comma	.md	أدخل الاسم (كما في الهوية), ثم العمر
 none	.json	  "fields": ["الاسم", "العمر"],
-Latin question mark	.md	هل تريد حذف “الملف”?
-Latin semicolon	.md	اختر “الاسم”; ثم العمر
+Latin question mark	.md	هل تريد حذف «الملف»?
+Latin semicolon	.md	اختر «الاسم»; ثم العمر
 جاري: write جارٍ	.json	  "saving": "جاري الحفظ…",
 none	.json	  "saving": "جارٍ الحفظ…",
 none	.txt	رصيد الحساب الجاري
@@ -90,3 +90,22 @@ Placeholder written in Arabic	.json	  "hi": "مرحبًا {الاسم}"
 Placeholder written in Arabic	.json	  "hi": "مرحبًا {{الاسم}}"
 none	.json	  "hi": "مرحبًا {name}"
 none	.json	  "n": "{count, plural, one {ملف} two {ملفان} other {# ملف}}"
+Tatweel	.txt	تابــع
+Tatweel	.json	"title": "خط ثمانيــة"
+none	.txt	لم نجد نتائج لـ«ساعة». جرّب كلمة أخرى.
+none	.txt	1447 هـ
+Numbers 11-99 take a singular with tanween	.txt	11 متابع في آخر 7 أيام
+Numbers 11-99 take a singular with tanween	.txt	199 منشور
+Numbers 11-99 take a singular with tanween	.json	"n": "لديك 15 ملف"
+none	.txt	15 ملفًا
+none	.txt	15 رسالة
+none	.txt	خلال 24 ساعة
+none	.txt	من 11 إلى 20
+none	.txt	الخطوة 12 من 20
+none	.txt	تأسست في 2026 كمنصة
+none	.txt	الإجمالي: 1,250.50 ر.س
+none	.txt	ينتهي في 15 مارس 2026
+Space before ؟	.txt	كيف أفعل رمز «ر.س» ؟
+Space before ؟	.txt	الاسم ، العمر
+Curly quotes	.txt	لم نجد نتائج لـ“ساعة”.
+none	.txt	حجمه أكبر من 25 ميجابايت.
