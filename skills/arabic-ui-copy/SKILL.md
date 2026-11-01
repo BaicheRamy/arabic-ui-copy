@@ -3,7 +3,7 @@ name: arabic-ui-copy
 description: Write, translate or review Arabic interface text (buttons, form labels, errors, empty states, dialogs, toasts, status labels, navigation, rating and feedback prompts, support replies, and push, SMS and email notifications) so it reads as native product Arabic, not translated English. Use whenever a UI string is in Arabic or must be, for any product with lang="ar", dir="rtl", Arabic locale files, or an Arabic version of an English app.
 license: MIT
 metadata:
-  version: "1.1.0"
+  version: "1.2.0"
   author: BaicheRamy
 ---
 
@@ -23,8 +23,8 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 ## Voice
 
 - **Register.** Modern Standard Arabic in the product. Light dialect is allowed only in marketing pages and onboarding, never in buttons, errors, forms or settings.
-- **No English loanwords.** Use the Arabic term (البريد الإلكتروني, not الإيميل; الرئيسية, not داشبورد). Brand and product names stay in Latin script: Apple Pay, Visa, iPhone.
-- **Address one person.** أهلاً بك, not أهلاً بكم.
+- **No English loanwords.** Use the Arabic term (البريد الإلكتروني, not الإيميل; الرئيسية, not داشبورد). Brand and product names stay in Latin script (Apple Pay, Visa, iPhone), unless the name is an Arabic word (see Brand names).
+- **Address one person.** أهلاً بك, not أهلاً بكم. Text that speaks to all users at once (release notes, announcements, thanks to everyone) uses the plural throughout: أصبح بإمكانكم تثبيت المحادثات · شكرًا على ملاحظاتكم.
 - **Gender.** Prefer forms that address nobody in particular when they cost no extra length: a passive verb with a verbal noun (يُرجى إدخال الاسم) or a passive verb alone (أُرسل رمز التحقق). Short direct commands in the masculine singular are acceptable where a neutral form would be much longer (أدخل, جرّب, ابحث).
 - **Translate, don't add.** Do not add reasons, instructions, examples, roles or "now" that the source does not have, unless a pattern below requires it. Arabic UI text should stay about as long as the source; when in doubt, cut. Patterns and examples give the form, never the content: when you translate, keep what the source says (a source that says "Thanks for reaching out" gets thanks, not استلمنا طلبك).
 - **Drop English possessives.** Write كلمة السر, not كلمة السر الخاصة بك; السلة, not سلتك الخاصة.
@@ -128,7 +128,7 @@ ICU MessageFormat does the same: `{count, plural, zero {لم يُحدَّد أي
 - **Dates**: Gregorian unless the product uses Hijri. Day, month name, year, no comma: 5 مارس 2026; with a weekday: الخميس، 5 مارس 2026. Months: يناير، فبراير، مارس، أبريل، مايو، يونيو، يوليو، أغسطس، سبتمبر، أكتوبر، نوفمبر، ديسمبر. A Hijri date ends in هـ.
 - **Relative time**: قبل + count, with the plural rules: قبل دقيقة واحدة · قبل دقيقتين · قبل 5 دقائق · قبل 11 دقيقة. الآن for just now, أمس for yesterday. Never منذ with مضت.
 - **In code**, format with `Intl` and a Latin-digit locale: `new Intl.DateTimeFormat('ar-u-ca-gregory-nu-latn', { dateStyle: 'long' })` and `new Intl.RelativeTimeFormat('ar-u-nu-latn', { numeric: 'auto' })` give the forms above. Locales such as ar-SA and ar-EG print Arabic-Indic digits unless you add `-u-nu-latn`.
-- **Brand names**: Latin script, never transliterated (Apple Pay, not أبل باي). Wrap Latin text inside Arabic in a bidi isolate in the component (`<bdi>` or `dir="auto"` on its element), never as markup inside a translation string.
+- **Brand names**: Latin script, never transliterated (Apple Pay, not أبل باي). A product or plan whose name is an Arabic word or has an official Arabic name is written in Arabic: رفيد, not Rafeed; الباقة الاحترافية, not باقة Pro. Wrap Latin text inside Arabic in a bidi isolate in the component (`<bdi>` or `dir="auto"` on its element), never as markup inside a translation string.
 
 ## Checklist before answering
 
