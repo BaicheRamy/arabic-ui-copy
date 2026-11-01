@@ -2,6 +2,11 @@
 
 Versions follow semantic versioning: a major version changes a house rule, a minor version adds rules or coverage, a patch fixes wording or the checker.
 
+## 1.2.0 (2026-11-01)
+
+- Text that speaks to all users at once (release notes, announcements, thanks to everyone) addresses them in the plural throughout: شكرًا على ملاحظاتكم.
+- A product or plan whose name is an Arabic word, or has an official Arabic name, is written in Arabic (رفيد, not Rafeed). Other brand names stay in Latin script.
+
 ## 1.1.0 (2026-10-31)
 
 - Quotation marks are now « » (were “ ”). Real Arabic products and the UAE Design System use « »; the checker now flags “ ” instead.
