@@ -35,12 +35,13 @@ The agent reads SKILL.md every time and a reference file only when the string ne
 python3 scripts/check_copy.py src/locales/ar.json
 python3 scripts/check_copy.py --profile gulf src/locales/ar.json   # accepts كلمة المرور and رقم الجوال
 python3 scripts/check_copy.py --universal src/locales/ar.json      # only rules that hold in any style
+python3 scripts/check_copy.py --keep "كلمة المرور,تنزيل" src/locales/ar.json   # the project's own terms win
 python3 scripts/check_copy.py --sms templates/sms/
 ```
 
 ## Scope
 
-Modern Standard Arabic for product UI and the messages it sends, with light dialect allowed in marketing and onboarding. Western digits, with number and date formats as Gulf and Egyptian readers expect them; the maghreb profile switches to a decimal comma. This is one house style, not the only correct Arabic: كلمة السر and تحميل are deliberate choices. Use a profile (the gulf profile accepts كلمة المرور), or fork the glossary to change a term, and the checker follows it.
+Modern Standard Arabic for product UI and the messages it sends, with light dialect allowed in marketing and onboarding. Western digits, with number and date formats as Gulf and Egyptian readers expect them; the maghreb profile switches to a decimal comma. This is one house style, not the only correct Arabic: كلمة السر and تحميل are deliberate choices. Use a profile (the gulf profile accepts كلمة المرور), pass a project's own terms with `--keep`, or fork the glossary to change a term, and the checker follows it.
 
 ## Author
 

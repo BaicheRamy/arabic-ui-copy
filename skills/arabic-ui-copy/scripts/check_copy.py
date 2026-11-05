@@ -1,10 +1,12 @@
 #!/usr/bin/env python3
 """Flag Arabic UI copy that breaks the arabic-ui-copy house rules.
 
-Usage: python3 check_copy.py [--universal] [--sms] [--profile NAME] <file or folder> [...]
+Usage: python3 check_copy.py [--universal] [--sms] [--profile NAME] [--keep TERMS] <file or folder> [...]
   --universal  only rules that hold for any Arabic UI style (no glossary, no house choices)
   --profile    a regional profile from ../references/profiles/ (gulf, egypt, maghreb): its rows
                replace the glossary rows with the same concept, and its "Rules off" are skipped
+  --keep       terms the project's own glossary chose, comma-separated (--keep "كلمة المرور,تنزيل");
+               the glossary does not flag them. Repeat it or list several
   --sms        also flag every Arabic string over 70 characters (one Arabic SMS). Pass only
                SMS template files: in any other file every long line is reported. Without it,
                only JSON keys containing "sms" are length-checked
@@ -158,7 +160,7 @@ RULES = [
     ("More than one exclamation mark", re.compile(r"!{2,}|!\s*!"), False),
     ("Apology on a user-input error: drop عذرًا", re.compile(r"عذر[ًا]{1,2}\s*[،,]?\s*(?:هذا الحقل|أدخل|يُرجى إدخال|يرجى إدخال|[^.\n]{0,30}غير (?:صالح|صحيح))"), False),
     ("منذ and مضت together: keep one", re.compile(r"منذ [^.\n،]{0,25}مضت"), True),
-    ("تم/يتم + verbal noun: use a passive or plain verb (حُفظت التغييرات, not تم حفظ التغييرات)",
+    ("تم/يتم + verbal noun: use a passive or plain verb (حُفظت التغييرات, not تم حفظ التغييرات); keep تم only if no verb has a clear subject and one reading",
      re.compile(r"(?<![ء-ي])(?:و|ف)?(?:تم|تمت|يتم|تتم|سيتم|ستتم)\s+[ء-ي]"), True),
     ("قم بـ + verbal noun: use the verb itself (أدخل, not قم بإدخال)",
      re.compile(r"(?<![ء-ي])(?:و|ف)?(?:قم|قومي|قوموا)\s+ب|(?:يرجى|الرجاء)\s+القيام\s+ب"), True),
@@ -166,7 +168,9 @@ RULES = [
      re.compile(r"(?<!zero )(?<!one )(?<!two )(?<!few )(?<!many )(?<!other )(?<!zero)(?<!one)(?<!two)(?<!few)(?<!many)(?<!other)"
                 r"(?<!=\d )(?<!=\d)\{\{?[ء-ي_]+\}\}?|%\d\$[ء-ي]"), False),
     ("Hebrew or CJK characters in Arabic text", re.compile(r"[\u0590-\u05FF\u3040-\u30FF\u3400-\u9FFF\uAC00-\uD7AF]"), False),
-    ("Relative time: house form is قبل (قبل 5 دقائق)", re.compile(r"(?<![ء-ي])منذ (?:\d+\s+)?" + TIME_UNITS + r"(?![ء-ي])"), True),
+    # منذ after انتظار is a duration (بانتظار منذ 5 دقائق), not a point in the past.
+    ("Relative time: house form is قبل (قبل 5 دقائق); منذ only for how long something has lasted",
+     re.compile(r"(?<![ء-ي])(?<!انتظار )منذ (?:\d+\s+)?" + TIME_UNITS + r"(?![ء-ي])"), True),
 ]
 class Glued:
     """Latin letters touching Arabic letters with no space (ادفع باستخدامApple Pay). A one-letter و, ب or ل
@@ -272,6 +276,21 @@ def check_text(path, text, terms, allowed=(), universal=False, sms=False, rules_
     return [(path, n, m) for n, m in found]
 
 
+def take_keep(argv):
+    """Remove every --keep option from argv; return (kept terms, mark-stripped; the other arguments)."""
+    keep, rest, i = set(), [], 0
+    while i < len(argv):
+        a = argv[i]
+        if a == "--keep" or a.startswith("--keep="):
+            value = a.split("=", 1)[1] if "=" in a else (argv[i + 1] if i + 1 < len(argv) else "")
+            keep.update(strip_marks(t.strip()) for t in re.split("[,،]", value) if t.strip())
+            i += 1 if "=" in a else 2
+            continue
+        rest.append(a)
+        i += 1
+    return keep, rest
+
+
 def files(args):
     for a in args:
         if os.path.isdir(a):
@@ -296,9 +315,11 @@ def main(argv):
             profile = a.split("=", 1)[1] if "=" in a else (argv[i + 1] if i + 1 < len(argv) else "")
             argv = argv[:i] + argv[i + (1 if "=" in a else 2):]
             break
+    keep, argv = take_keep(argv)
     argv = [a for a in argv if a not in ("--universal", "--sms")]
     rules_off = load_profile(profile)[1] if profile else []
     terms, allowed = ([], []) if universal else load_glossary(profile)
+    terms = [(bad, use) for bad, use in terms if bad not in keep]
     results = []
     for path in files(argv):
         try:

@@ -40,5 +40,23 @@ for line in open(os.path.join(SKILL, "references", "examples.md"), encoding="utf
     cells = [c.strip() for c in line.strip().strip("|").split("|")]
     if line.startswith("|") and len(cells) >= 4 and cells[0] != "English" and not set(cells[0]) <= {"-"}:
         run(None, "none", ".txt", cells[2]); n += 1
+# --keep: a project's own terms are not flagged; other rules still apply.
+import contextlib, io, tempfile
+def main_exit(args, text):
+    with tempfile.NamedTemporaryFile("w", suffix=".txt", encoding="utf-8", delete=False) as f:
+        f.write(text)
+    try:
+        with contextlib.redirect_stdout(io.StringIO()):
+            return cc.main(args + [f.name])
+    finally:
+        os.unlink(f.name)
+for args, text, want in [([], "أدخل كلمة المرور", 1), (["--keep", "كلمة المرور"], "أدخل كلمة المرور", 0),
+                         (["--keep=تنزيل,كلمة المرور"], "تنزيل الفاتورة بعد إدخال كلمة المرور", 0),
+                         (["--keep", "كلمة المرور"], "تنزيل الفاتورة", 1), (["--keep", "كلمة المرور"], "تم حفظ كلمة المرور", 1)]:
+    n += 1
+    got = main_exit(args, text)
+    if got != want:
+        fails += 1
+        print(f"FAIL  --keep {args} {text}\n      expected exit {want}, got {got}")
 print(f"{n} checks, {fails} failure(s)")
 sys.exit(1 if fails else 0)

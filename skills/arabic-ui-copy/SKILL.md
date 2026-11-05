@@ -3,7 +3,7 @@ name: arabic-ui-copy
 description: Write, translate or review Arabic interface text (buttons, form labels, errors, empty states, dialogs, toasts, status labels, navigation, rating and feedback prompts, support replies, and push, SMS and email notifications) so it reads as native product Arabic, not translated English. Use whenever a UI string is in Arabic or must be, for any product with lang="ar", dir="rtl", Arabic locale files, or an Arabic version of an English app.
 license: MIT
 metadata:
-  version: "1.2.0"
+  version: "1.3.0"
   author: BaicheRamy
 ---
 
@@ -15,9 +15,9 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 
 1. Decide what the string is: button, link, label, placeholder, helper text, error, success, progress, empty state, dialog, status, navigation, rating prompt, support reply, notification, or marketing.
 2. Write it from the pattern for that type below. Do not translate the English word by word.
-3. Look up every product term in [references/glossary.md](references/glossary.md) and use the chosen term only.
+3. Look up every product term in [references/glossary.md](references/glossary.md) and use the chosen term only. If the project has its own glossary or style sheet, its terms win: keep them, say where they differ from this glossary, and pass them to the checker with `--keep`.
 4. For a full screen or many strings, read [references/examples.md](references/examples.md) first: it shows the mistakes agents make most and the fixes. For rating or survey prompts, support or assistant replies, milestones, or SMS, push and email text, also read [references/feedback-and-messages.md](references/feedback-and-messages.md). For payments, deleting, permission prompts, locale files or pasted text, read [references/sensitive-states.md](references/sensitive-states.md); for undo toasts, onboarding, paywalls, subscriptions and screen-reader labels, read [references/flows.md](references/flows.md).
-5. If you are editing files, run `python3 scripts/check_copy.py <files or folders>` and fix what it reports.
+5. If you are editing files, run `python3 scripts/check_copy.py <files or folders>` and fix what it reports, after reading the English: a flagged term can name another concept (إعادة تعيين for Reassign becomes إعادة إسناد, not إعادة ضبط).
 6. Before answering, go through the checklist at the end.
 
 ## Voice
@@ -26,7 +26,9 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 - **No English loanwords.** Use the Arabic term (البريد الإلكتروني, not الإيميل; الرئيسية, not داشبورد). Brand and product names stay in Latin script (Apple Pay, Visa, iPhone), unless the name is an Arabic word (see Brand names).
 - **Address one person.** أهلاً بك, not أهلاً بكم. Text that speaks to all users at once (release notes, announcements, thanks to everyone) uses the plural throughout: أصبح بإمكانكم تثبيت المحادثات · شكرًا على ملاحظاتكم.
 - **Gender.** Prefer forms that address nobody in particular when they cost no extra length: a passive verb with a verbal noun (يُرجى إدخال الاسم) or a passive verb alone (أُرسل رمز التحقق). Short direct commands in the masculine singular are acceptable where a neutral form would be much longer (أدخل, جرّب, ابحث).
-- **Translate, don't add.** Do not add reasons, instructions, examples, roles or "now" that the source does not have, unless a pattern below requires it. Arabic UI text should stay about as long as the source; when in doubt, cut. Patterns and examples give the form, never the content: when you translate, keep what the source says (a source that says "Thanks for reaching out" gets thanks, not استلمنا طلبك).
+- **A verb needs a clear subject.** When a passive or plain verb replaces تم + verbal noun, it must say what it is about and read one way without vowel marks: بلغت الباقة حدها, not بلغت الحد (you or she?); لم يكتمل إعداد الحساب, not لم يُعَدّ الحساب (reads as لم يعد). If no verb does both, keep تم: تمت مراجعة 3 من 5.
+- **One meaning, one term.** When the English uses one word for two things, give each its own Arabic term and use it in every string. In a support tool, agent can be وكيل for the AI and عضو الفريق for the person answering chats.
+- **Translate, don't add.** Do not add reasons, instructions, examples, roles or "now" that the source does not have, unless a pattern below requires it. Arabic UI text should stay about as long as the source; when in doubt, cut. Patterns and examples give the form, never the content: when you translate, keep what the source says (a source that says "Thanks for reaching out" gets thanks, not استلمنا طلبك). Don't drop anything either: every scope, option or fact in the source stays (Search name or email: ابحث بالاسم أو البريد الإلكتروني, not ابحث).
 - **Drop English possessives.** Write كلمة السر, not كلمة السر الخاصة بك; السلة, not سلتك الخاصة.
 - **Exclamation marks**: at most one, and only in welcomes, milestone success and thanks (أهلاً بك! · تهانينا على أول عملية بيع! · شكرًا على رأيك!). Never in routine success (حُفظت التغييرات), errors, warnings or dialogs.
 - **Apologise only for our own faults, and at most once.** The generic error is the house apology (عذرًا، حدث خطأ. يُرجى إعادة المحاولة.). A named failure (حدث خطأ أثناء…) and anything about the user's input carry no apology (هذا الحقل مطلوب, not عذرًا، هذا الحقل مطلوب). نعتذر is for support replies and incident notices where the user lost time or money, and the fix or next step follows in the same message.
@@ -43,7 +45,7 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 | Instruction (helper text that asks the user to act) | يُرجى + verbal noun (see "Please" above) | يُرجى اختيار طريقة الدفع |
 | Informational helper text | A plain statement, in the we-form when the product acts | سنرسل لك رمز التحقق برسالة نصية |
 | Success | Passive past verb, mark the passive with a damma. When a process finishes, اكتمل + verbal noun reads better | حُفظت التغييرات · حُذف المشروع · أُرسل رمز التحقق · اكتمل الدفع · اكتمل الرفع |
-| Action failed | حدث خطأ أثناء + verbal noun + object, without عذرًا. A known cause goes in its own short sentence after it | حدث خطأ أثناء حفظ التغييرات · حدث خطأ أثناء رفع الملف. حجمه أكبر من 25 ميجابايت. |
+| Action failed | Something broke on our side: حدث خطأ أثناء + verbal noun + object, without عذرًا. A known cause goes in its own short sentence after it. The cause may be the user's (their file, link or access) or nothing was found: تعذّر + verbal noun, then what to check | حدث خطأ أثناء حفظ التغييرات · حدث خطأ أثناء رفع الملف. حجمه أكبر من 25 ميجابايت. · تعذّرت قراءة الملف. يُرجى التأكد من أنه غير تالف. |
 | Generic error | Fixed string | عذرًا، حدث خطأ. يُرجى إعادة المحاولة. |
 | Error with a fix | What happened or why, then what to do, only when the user can act on it. At most two short sentences; never repeat a word across them | الصورة أكبر من 25 ميجابايت. يُرجى اختيار ملف أصغر. |
 | No connection | Fixed string | تحقّق من اتصالك بالإنترنت ثم حاول مرة أخرى |
@@ -56,7 +58,7 @@ House rules for Arabic interface text, set by a native Arabic product designer a
 | Required field | Fixed string | هذا الحقل مطلوب |
 | Invalid value | Say what to enter. Show an example only for a format (phone, email, date), never an invented code, name or amount | أدخل رقم هاتف صحيحًا، مثل 05XXXXXXXX · قسيمة الخصم غير صالحة |
 | Optional field | Label then (اختياري) | الاسم (اختياري) |
-| Search placeholder | One word | ابحث |
+| Search placeholder | ابحث alone when the source is just "Search"; otherwise keep what it searches | ابحث · ابحث بالاسم أو البريد الإلكتروني |
 | Status labels | Fixed set | معلّق · قيد المراجعة · مكتمل · فشل |
 | Rating question | ما مدى + رضاك عن / احتمال أن توصي بـ / سهولة + object؟ Label both scale ends in words | ما مدى رضاك عن إتمام الطلب؟ · غير راضٍ إطلاقًا … راضٍ جدًا |
 | Milestone success | Warm, one exclamation mark; تهانينا in the product | تهانينا على أول عملية بيع! |
@@ -126,16 +128,16 @@ ICU MessageFormat does the same: `{count, plural, zero {لم يُحدَّد أي
 - **Decimals and thousands**: decimal point and a thousands comma, as Gulf users read them: 1,234.5 and 12,500 ر.س. Never a decimal comma: to a Gulf reader the comma marks thousands, so 2,500 means two thousand five hundred, never two and a half.
 - **Time**: digits then صباحًا or مساءً: 3:00 مساءً.
 - **Dates**: Gregorian unless the product uses Hijri. Day, month name, year, no comma: 5 مارس 2026; with a weekday: الخميس، 5 مارس 2026. Months: يناير، فبراير، مارس، أبريل، مايو، يونيو، يوليو، أغسطس، سبتمبر، أكتوبر، نوفمبر، ديسمبر. A Hijri date ends in هـ.
-- **Relative time**: قبل + count, with the plural rules: قبل دقيقة واحدة · قبل دقيقتين · قبل 5 دقائق · قبل 11 دقيقة. الآن for just now, أمس for yesterday. Never منذ with مضت.
+- **Relative time**: قبل + count, with the plural rules: قبل دقيقة واحدة · قبل دقيقتين · قبل 5 دقائق · قبل 11 دقيقة. الآن for just now, أمس for yesterday. Never منذ with مضت. منذ stays for how long something has lasted: بانتظار منذ 5 دقائق.
 - **In code**, format with `Intl` and a Latin-digit locale: `new Intl.DateTimeFormat('ar-u-ca-gregory-nu-latn', { dateStyle: 'long' })` and `new Intl.RelativeTimeFormat('ar-u-nu-latn', { numeric: 'auto' })` give the forms above. Locales such as ar-SA and ar-EG print Arabic-Indic digits unless you add `-u-nu-latn`.
 - **Brand names**: Latin script, never transliterated (Apple Pay, not أبل باي). A product or plan whose name is an Arabic word or has an official Arabic name is written in Arabic: رفيد, not Rafeed; الباقة الاحترافية, not باقة Pro. Wrap Latin text inside Arabic in a bidi isolate in the component (`<bdi>` or `dir="auto"` on its element), never as markup inside a translation string.
 
 ## Checklist before answering
 
 - [ ] Every product button is a verbal noun, unless it is sign in, sign up (سجّل الآن), retry or a destructive confirmation.
-- [ ] Every term matches the glossary; no loanwords; no "الخاص بك".
+- [ ] Every term matches the glossary, or the project's own where it has one; one Arabic term per meaning; no loanwords; no "الخاص بك".
 - [ ] Success uses a passive verb or اكتمل; errors say what to do only when the user can act and no button already says it; no exclamation mark in errors.
-- [ ] Nothing added that the source does not say; no invented example values; no longer than it needs to be.
+- [ ] Nothing added that the source does not say and nothing it says dropped; no invented example values; no longer than it needs to be.
 - [ ] Arabic punctuation, « » quotes, single-character ellipsis.
 - [ ] Shadda on verbs and participles; no hamza on connecting alif.
 - [ ] Western digits; 1,234.5 format; dates like 5 مارس 2026; relative time with قبل; brand names in Latin.
