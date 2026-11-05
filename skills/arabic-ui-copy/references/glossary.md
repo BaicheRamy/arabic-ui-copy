@@ -17,7 +17,8 @@ One term per concept. Use the term in **Use**. Terms in **Avoid** are what other
 | Turn on / off | تفعيل / إيقاف | إيقاف التشغيل / تمكين / تعطيل | تشغيل is fine for media (تشغيل الفيديو) |
 | On / off (state label) | مفعّل / غير مفعّل | | The actions stay تفعيل / إيقاف |
 | Dark mode | الوضع الليلي | الوضع الداكن / النمط الداكن / الوضع المعتم / الوضع المظلم / الدارك مود | |
-| Reset | إعادة ضبط | إعادة تعيين | |
+| Reset | إعادة ضبط | إعادة تعيين | Only for Reset: read the English first, since إعادة تعيين is also written for Reassign |
+| Assign; reassign | إسناد · إعادة إسناد | | |
 | Dashboard / home | الرئيسية | لوحة التحكم / لوحة المعلومات / داشبورد | |
 | Settings | الإعدادات | الضبط | |
 | Security | الأمان | | Not الأمن |
@@ -56,7 +57,7 @@ One term per concept. Use the term in **Use**. Terms in **Avoid** are what other
 | Follow (button) | متابعة | فولو | Unfollow: إلغاء المتابعة. Not the imperative تابع on a button |
 | Not now | ليس الآن | | |
 | Congratulations | تهانينا | | مبروك in marketing only |
-| Search (placeholder) | ابحث | | |
+| Search (placeholder) | ابحث | | Alone only when the source is just "Search": ابحث بالاسم أو البريد الإلكتروني |
 | Optional | (اختياري) after the label | | |
 | Status: pending | معلّق | قيد الانتظار | |
 | Status: in review | قيد المراجعة | تحت المراجعة | |

@@ -2,6 +2,17 @@
 
 Versions follow semantic versioning: a major version changes a house rule, a minor version adds rules or coverage, a patch fixes wording or the checker.
 
+## 1.3.0 (2026-11-05)
+
+- A project's own glossary or style sheet wins over this one. The agent keeps its terms and says where they differ; the checker skips them with `--keep "كلمة المرور,تنزيل"`.
+- Failures: حدث خطأ أثناء when something broke on our side; تعذّر + verbal noun, then what to check, when the cause may be the user's file, link or access, or nothing was found.
+- A verb that replaces تم + verbal noun must name what it is about and read one way without vowel marks (بلغت الباقة حدها, not بلغت الحد). If no verb does both, تم stays.
+- One meaning, one term: when the English uses one word for two things, each gets its own Arabic term in every string.
+- Nothing the source says is dropped. A search placeholder is ابحث alone only when the source is just "Search"; otherwise it keeps what it searches.
+- Fix a flagged term only after reading the English: إعادة تعيين for Reassign becomes إعادة إسناد, not إعادة ضبط. Glossary: Assign, reassign is إسناد · إعادة إسناد.
+- منذ stays for how long something has lasted (بانتظار منذ 5 دقائق); the checker no longer flags it after انتظار.
+- Examples: dialog buttons are نعم، احذف / إلغاء everywhere (one row still said لا); new rows for a failure caused by the file, a full storage limit and a search field that names what it searches.
+
 ## 1.2.0 (2026-11-01)
 
 - Text that speaks to all users at once (release notes, announcements, thanks to everyone) addresses them in the plural throughout: شكرًا على ملاحظاتكم.

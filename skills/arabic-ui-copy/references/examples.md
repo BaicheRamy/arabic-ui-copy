@@ -32,6 +32,8 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | Network error | خطأ في الشبكة | تحقّق من اتصالك بالإنترنت ثم حاول مرة أخرى | House fixed string; errors tell the user what to do. |
 | Your session has expired. Please log in again. | انتهت صلاحية جلستك. الرجاء تسجيل الدخول مرة أخرى. | لحمايتك، سجّلنا خروجك. سجّل الدخول للمتابعة. | House fixed string: the reason in the user's terms, then the next step. |
 | Couldn't load comments. + a Retry button | عذرًا، تعذّر تحميل التعليقات. يُرجى إعادة المحاولة. | حدث خطأ أثناء تحميل التعليقات + أعد المحاولة | No عذرًا on a named failure; the button already says retry. |
+| We couldn't read this file. Check that it isn't corrupted. | حدث خطأ أثناء قراءة الملف. يُرجى التأكد من أنه غير تالف. | تعذّرت قراءة الملف. يُرجى التأكد من أنه غير تالف. | The cause may be the file, so تعذّر; حدث خطأ says we broke something. |
+| Storage limit reached | بلغت حد التخزين | امتلأت مساحة التخزين | Name what is full; بلغت alone reads as you or she. |
 
 ## Forms
 
@@ -43,7 +45,8 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | Invalid phone number | رقم الجوال غير صالح | أدخل رقم هاتف صحيحًا، مثل 05XXXXXXXX | Say what to enter, show an example; glossary term رقم الهاتف. |
 | Company (optional) | الشركة - اختياري | الشركة (اختياري) | House marker. |
 | Choose a payment method | اختر طريقة الدفع الخاصة بك | يُرجى اختيار طريقة الدفع | Helper text uses يُرجى + verbal noun, which also avoids gender. |
-| Search products... | البحث عن المنتجات... | ابحث | One-word placeholder. |
+| Search... | بحث... | ابحث | One word when the source is just "Search". |
+| Search name, page or country | ابحث | ابحث بالاسم أو الصفحة أو الدولة | Keep what the field searches. |
 | We'll text you a code (helper text) | يُرجى إرسال رمز التحقق برسالة نصية | سنرسل لك رمز التحقق برسالة نصية | Helper text that informs is a statement; يُرجى is for instructions. |
 | First name, when it must be in Arabic script | الاسم الأول | اسمك الأول، بالعربية | Say which script when it matters, or users type it in Latin letters. |
 
@@ -55,7 +58,7 @@ Each pair shows a typical machine-translated or agent-written string, the house 
 | No projects yet. Create one! | لا توجد مشاريع حتى الآن. أنشئ واحدًا! | ابدأ بإنشاء أول مشروع + button إنشاء مشروع | Invitation, then a verbal-noun button. |
 | No results found | لم يتم العثور على نتائج | لم نجد نتائج لـ«ساعة». جرّب كلمة أخرى. | Name the query in « »; suggest a next step. |
 | Are you sure you want to delete this project? | هل أنت متأكد أنك تريد حذف هذا المشروع؟ | هل أنت متأكّد من حذف المشروع؟ | Shorter house pattern. |
-| Delete / Cancel (dialog buttons) | حذف / إلغاء | نعم، احذف / لا | House dialog buttons. |
+| Delete / Cancel (dialog buttons) | حذف / إلغاء | نعم، احذف / إلغاء | House dialog buttons; إلغاء, not لا. |
 | Sign out? (dialog) | هل أنت متأكد أنك تريد تسجيل الخروج؟ · نعم · لا | هل تريد تسجيل الخروج؟ · تسجيل الخروج · إلغاء | Not destructive: هل تريد, and the action as the button. |
 
 ## Settings and status
